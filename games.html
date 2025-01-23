@@ -3,98 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <title>Games</title>
-    <style>
-        img {
-            height: 1em;
-            width: 1em;
-        }
+    <style type="text/tailwindcss">
+        @layer components {
+            .btn-gray {
+                @apply bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded;
+            }
 
-        svg {
-            height: 1em;
-            width: 1em;
-        }
+            .btn-red {
+                @apply bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded;
+            }
 
-        body {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            .btn-green {
+                @apply bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded;
+            }
+
+            .btn-white {
+                @apply bg-neutral-50 hover:bg-neutral-100 text-black font-bold py-2 px-4 rounded;
+            }
+
+            .btn {
+                @apply bg-red-100 text-black font-bold py-2 px-4 rounded;
+            }
+
+            .input {
+                @apply appearance-none border rounded max-w-md mx-auto py-2 px-3 text-gray-700 leading-tight focus:outline-none text-center;
+            }
+
+            .title {
+                @apply block text-gray-700 font-bold mb-2 text-xl text-center;
+            }
+
+            .background {
+                @apply w-full max-w-xs flex items-center justify-center min-h-screen min-w-full;
+            }
+
+            img, svg {
+                @apply h-4 w-4;
+            }
         }
     </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-<h1>My Games</h1>
-<h2>My Current Favourite Games:</h2>
-Hearts of Iron IV<br>
-Warno<br>
-<h3>Other games:</h3>
-Minecraft Bedrock + Java<br>
-<h4>The rest can be found on one of the following platforms:</h4>
-<a href="https://steamcommunity.com/id/Allyce3642/games">
-    <button>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-            <path d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l.003.006 4.304 1.769A2.2 2.2 0 0 1 5.62 8.88l1.96-2.844-.001-.04a3.046 3.046 0 0 1 3.042-3.043 3.046 3.046 0 0 1 3.042 3.043 3.047 3.047 0 0 1-3.111 3.044l-2.804 2a2.223 2.223 0 0 1-3.075 2.11 2.22 2.22 0 0 1-1.312-1.568L.33 10.333Z"/>
-            <path d="M4.868 12.683a1.715 1.715 0 0 0 1.318-3.165 1.7 1.7 0 0 0-1.263-.02l1.023.424a1.261 1.261 0 1 1-.97 2.33l-.99-.41a1.7 1.7 0 0 0 .882.84Zm3.726-6.687a2.03 2.03 0 0 0 2.027 2.029 2.03 2.03 0 0 0 2.027-2.029 2.03 2.03 0 0 0-2.027-2.027 2.03 2.03 0 0 0-2.027 2.027m2.03-1.527a1.524 1.524 0 1 1-.002 3.048 1.524 1.524 0 0 1 .002-3.048"/>
-        </svg>
-        Steam
-    </button>
-</a>
-<a href="https://store.epicgames.com/u/267b6462f9da464491001d1869f56a7d">
-    <button>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/200px-Epic_Games_logo.svg.png"
-             alt=""> Epic Games
-    </button>
-</a>
-<a href="https://www.gog.com/u/AllyToAll/games">
-    <button>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA9lBMVEX////MyN6If7OJgLOWjrvw7/auqMuMgLSxqM2kksSbhr+fhL/WyuM4IYccAHk2IYMuGYAAAHKkncTe2+ksDX4+JYcoAH6voMs8AIhaJ5djL5tYDpD9/P5wY6P8+v759fytm8tLBJDn5PCSbLVpJJh7cKjDvdf08vmaeLvDudj18vpjJJw0HXxyZ6AwAHteQpSAa6prSp9LApmDY7ikhslVRY1jU5aIZLx/Wbh4TbRzNK2pgM2JRLpUPotbNo7IruCRWMOeZMigV8XVwOa6i9Z3Wp95VaKXccOifMlQIoh8W69nP59lOahQNJRmUqSAabNCI5VKOY9tff7FAAABPUlEQVR4Ac3RVXaDUABF0Rt3RRp5wRrDIe7unvkPJs7qbz9zcDYOvjGX2+PxeH3wewKBQBC+UDgciUQ/GIsnEslUmkrRDEOz1E8mm8vlc28jdIHjqXiaivs5LshSgihx3G+RvJUuAb4nloHyEytAteic6aAMyE9UHqjiXVLTS5KRpgzTsuwMJdTq9WjDwXSz2ZIML7FM27arHNXudKON3gdJRalIRgjgCOEA8DyP/uBjzeHQHBkCPo0n0+l0MMO7UsmyrIjk4LzfXywWc/yj4HK5XEWVav1REPP1q80Ht9snymJnt8vu+Z1aPzzGg4MlEIKgSAHho3I642wjknUw8Lp4RgICDpYuzl/RCV+BP+7iuNKxcirgfPpDLaVpSZecSjJM/FoZFtC6osR+0OV5RHHe58KFtB9pL/wefGF369AsI1+AY60AAAAASUVORK5CYII="
-             alt=""> GoG
-    </button>
-</a>
-<a href="https://psnprofiles.com/AllyToAll">
-    <button>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-            <path d="M15.858 11.451c-.313.395-1.079.676-1.079.676l-5.696 2.046v-1.509l4.192-1.493c.476-.17.549-.412.162-.538-.386-.127-1.085-.09-1.56.08l-2.794.984v-1.566l.161-.054s.807-.286 1.942-.412c1.135-.125 2.525.017 3.616.43 1.23.39 1.368.962 1.056 1.356M9.625 8.883v-3.86c0-.453-.083-.87-.508-.988-.326-.105-.528.198-.528.65v9.664l-2.606-.827V2c1.108.206 2.722.692 3.59.985 2.207.757 2.955 1.7 2.955 3.825 0 2.071-1.278 2.856-2.903 2.072Zm-8.424 3.625C-.061 12.15-.271 11.41.304 10.984c.532-.394 1.436-.69 1.436-.69l3.737-1.33v1.515l-2.69.963c-.474.17-.547.411-.161.538.386.126 1.085.09 1.56-.08l1.29-.469v1.356l-.257.043a8.45 8.45 0 0 1-4.018-.323Z"/>
-        </svg>
-        PlayStation
-    </button>
-</a>
-<a href="https://www.xbox.com/en-GB/play/user/Allyce1017">
-    <button>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-            <path d="M7.202 15.967a8 8 0 0 1-3.552-1.26c-.898-.585-1.101-.826-1.101-1.306 0-.965 1.062-2.656 2.879-4.583C6.459 7.723 7.897 6.44 8.052 6.475c.302.068 2.718 2.423 3.622 3.531 1.43 1.753 2.088 3.189 1.754 3.829-.254.486-1.83 1.437-2.987 1.802-.954.301-2.207.429-3.239.33m-5.866-3.57C.589 11.253.212 10.127.03 8.497c-.06-.539-.038-.846.137-1.95.218-1.377 1.002-2.97 1.945-3.95.401-.417.437-.427.926-.263.595.2 1.23.638 2.213 1.528l.574.519-.313.385C4.056 6.553 2.52 9.086 1.94 10.653c-.315.852-.442 1.707-.306 2.063.091.24.007.15-.3-.319Zm13.101.195c.074-.36-.019-1.02-.238-1.687-.473-1.443-2.055-4.128-3.508-5.953l-.457-.575.494-.454c.646-.593 1.095-.948 1.58-1.25.381-.237.927-.448 1.161-.448.145 0 .654.528 1.065 1.104a8.4 8.4 0 0 1 1.343 3.102c.153.728.166 2.286.024 3.012a9.5 9.5 0 0 1-.6 1.893c-.179.393-.624 1.156-.82 1.404-.1.128-.1.127-.043-.148ZM7.335 1.952c-.67-.34-1.704-.705-2.276-.803a4 4 0 0 0-.759-.043c-.471.024-.45 0 .306-.358A7.8 7.8 0 0 1 6.47.128c.8-.169 2.306-.17 3.094-.005.85.18 1.853.552 2.418.9l.168.103-.385-.02c-.766-.038-1.88.27-3.078.853-.361.176-.676.316-.699.312a12 12 0 0 1-.654-.319Z"/>
-        </svg>
-        Xbox
-    </button>
-</a>
-<br>
-Specific Games:<br>
-<a href="https://r6.tracker.network/r6siege/profile/ubi/ally_to_all/overview">
-    <button>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArUlEQVR4AaXQIQjCUBSFYZNVQQRhzTUNdptYnGDvVVAZdowDu2A3aTBpXli1o2K2GESwGa7/YOmN8Xa3A1/9w6lkrIURFvDhoYlcc/GCGH5ow7o1JEMI6w6QhI8lJHHTBqaYIESEvTYQYIUAfTBdwLQrG7hrAheMsUUPV+2JZ8SrYohHkUAdTwigDzTwKRo4wYVoAxsIjugYgQjWdfGGGL5wkGsOPMwxwwA1pPYHWrdYV5huqgUAAAAASUVORK5CYII="
-             alt=""> Rainbow Six Siege - <code>Ally_To_All</code>
-    </button>
-</a><a href="https://tracker.gg/valorant/profile/riot/Allyce%23ENBY/overview">
-    <button>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAKlBMVEVHcEz/RlT/RVP/RlT/RVT/RlT/RlT/RlT/RlT/RlT/RlT/RlT/RlT/RlQVcUneAAAADXRSTlMAtEw9JYYT6MKjcdZdcWyMmQAAAIRJREFUKJHF0UkSgCAMBEBWAXH+/10RggRJedS5SOjSQFTql2xv29FKZmN9aAjvbtCEYcVwIy1YIgbCz+bBEYabwYxwwxyeiIFYMXfLHNtXgNQsUelY/5L9KnYq7hN62ihztLRkd6O20hzrtGqEOY7jI4ro1l4sB+khar+f+OuVaZHxs5wWkwguENjHEwAAAABJRU5ErkJggg=="
-             alt=""> Valorant - <code>Allyce#ENBY</code>
+<body class="background">
+<div class="input">
+    <h1 class="title">My Games</h1>
+    <h2>My Current Favourite Games:</h2>
+    <div class="btn">
+        Hearts of Iron IV
+    </div>
+    <div class="btn">
+        Warno
+    </div>
+    <h3>Other games:</h3>
+    <div class="btn">
+        Minecraft Bedrock + Java
+    </div>
+    <h4>The rest can be found on one of the following platforms:</h4>
+    <a href="https://steamcommunity.com/id/Allyce3642/games">
+        <button class="btn-white">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l.003.006 4.304 1.769A2.2 2.2 0 0 1 5.62 8.88l1.96-2.844-.001-.04a3.046 3.046 0 0 1 3.042-3.043 3.046 3.046 0 0 1 3.042 3.043 3.047 3.047 0 0 1-3.111 3.044l-2.804 2a2.223 2.223 0 0 1-3.075 2.11 2.22 2.22 0 0 1-1.312-1.568L.33 10.333Z"/>
+                <path d="M4.868 12.683a1.715 1.715 0 0 0 1.318-3.165 1.7 1.7 0 0 0-1.263-.02l1.023.424a1.261 1.261 0 1 1-.97 2.33l-.99-.41a1.7 1.7 0 0 0 .882.84Zm3.726-6.687a2.03 2.03 0 0 0 2.027 2.029 2.03 2.03 0 0 0 2.027-2.029 2.03 2.03 0 0 0-2.027-2.027 2.03 2.03 0 0 0-2.027 2.027m2.03-1.527a1.524 1.524 0 1 1-.002 3.048 1.524 1.524 0 0 1 .002-3.048"/>
+            </svg>
+            Steam
+        </button>
+    </a>
+    <a href="https://store.epicgames.com/u/267b6462f9da464491001d1869f56a7d">
+        <button class="btn-white">
+            <img alt=""
+                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/200px-Epic_Games_logo.svg.png">
+            Epic Games
+        </button>
+    </a>
+    <a href="https://www.gog.com/u/AllyToAll/games">
+        <button class="btn-white">
+            <img alt=""
+                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA9lBMVEX////MyN6If7OJgLOWjrvw7/auqMuMgLSxqM2kksSbhr+fhL/WyuM4IYccAHk2IYMuGYAAAHKkncTe2+ksDX4+JYcoAH6voMs8AIhaJ5djL5tYDpD9/P5wY6P8+v759fytm8tLBJDn5PCSbLVpJJh7cKjDvdf08vmaeLvDudj18vpjJJw0HXxyZ6AwAHteQpSAa6prSp9LApmDY7ikhslVRY1jU5aIZLx/Wbh4TbRzNK2pgM2JRLpUPotbNo7IruCRWMOeZMigV8XVwOa6i9Z3Wp95VaKXccOifMlQIoh8W69nP59lOahQNJRmUqSAabNCI5VKOY9tff7FAAABPUlEQVR4Ac3RVXaDUABF0Rt3RRp5wRrDIe7unvkPJs7qbz9zcDYOvjGX2+PxeH3wewKBQBC+UDgciUQ/GIsnEslUmkrRDEOz1E8mm8vlc28jdIHjqXiaivs5LshSgihx3G+RvJUuAb4nloHyEytAteic6aAMyE9UHqjiXVLTS5KRpgzTsuwMJdTq9WjDwXSz2ZIML7FM27arHNXudKON3gdJRalIRgjgCOEA8DyP/uBjzeHQHBkCPo0n0+l0MMO7UsmyrIjk4LzfXywWc/yj4HK5XEWVav1REPP1q80Ht9snymJnt8vu+Z1aPzzGg4MlEIKgSAHho3I642wjknUw8Lp4RgICDpYuzl/RCV+BP+7iuNKxcirgfPpDLaVpSZecSjJM/FoZFtC6osR+0OV5RHHe58KFtB9pL/wefGF369AsI1+AY60AAAAASUVORK5CYII=">
+            GoG
+        </button>
+    </a>
+    <a href="https://psnprofiles.com/AllyToAll">
+        <button class="btn-white">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.858 11.451c-.313.395-1.079.676-1.079.676l-5.696 2.046v-1.509l4.192-1.493c.476-.17.549-.412.162-.538-.386-.127-1.085-.09-1.56.08l-2.794.984v-1.566l.161-.054s.807-.286 1.942-.412c1.135-.125 2.525.017 3.616.43 1.23.39 1.368.962 1.056 1.356M9.625 8.883v-3.86c0-.453-.083-.87-.508-.988-.326-.105-.528.198-.528.65v9.664l-2.606-.827V2c1.108.206 2.722.692 3.59.985 2.207.757 2.955 1.7 2.955 3.825 0 2.071-1.278 2.856-2.903 2.072Zm-8.424 3.625C-.061 12.15-.271 11.41.304 10.984c.532-.394 1.436-.69 1.436-.69l3.737-1.33v1.515l-2.69.963c-.474.17-.547.411-.161.538.386.126 1.085.09 1.56-.08l1.29-.469v1.356l-.257.043a8.45 8.45 0 0 1-4.018-.323Z"/>
+            </svg>
+            PlayStation
+        </button>
+    </a>
+    <a href="https://www.xbox.com/en-GB/play/user/Allyce1017">
+        <button class="btn-white">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.202 15.967a8 8 0 0 1-3.552-1.26c-.898-.585-1.101-.826-1.101-1.306 0-.965 1.062-2.656 2.879-4.583C6.459 7.723 7.897 6.44 8.052 6.475c.302.068 2.718 2.423 3.622 3.531 1.43 1.753 2.088 3.189 1.754 3.829-.254.486-1.83 1.437-2.987 1.802-.954.301-2.207.429-3.239.33m-5.866-3.57C.589 11.253.212 10.127.03 8.497c-.06-.539-.038-.846.137-1.95.218-1.377 1.002-2.97 1.945-3.95.401-.417.437-.427.926-.263.595.2 1.23.638 2.213 1.528l.574.519-.313.385C4.056 6.553 2.52 9.086 1.94 10.653c-.315.852-.442 1.707-.306 2.063.091.24.007.15-.3-.319Zm13.101.195c.074-.36-.019-1.02-.238-1.687-.473-1.443-2.055-4.128-3.508-5.953l-.457-.575.494-.454c.646-.593 1.095-.948 1.58-1.25.381-.237.927-.448 1.161-.448.145 0 .654.528 1.065 1.104a8.4 8.4 0 0 1 1.343 3.102c.153.728.166 2.286.024 3.012a9.5 9.5 0 0 1-.6 1.893c-.179.393-.624 1.156-.82 1.404-.1.128-.1.127-.043-.148ZM7.335 1.952c-.67-.34-1.704-.705-2.276-.803a4 4 0 0 0-.759-.043c-.471.024-.45 0 .306-.358A7.8 7.8 0 0 1 6.47.128c.8-.169 2.306-.17 3.094-.005.85.18 1.853.552 2.418.9l.168.103-.385-.02c-.766-.038-1.88.27-3.078.853-.361.176-.676.316-.699.312a12 12 0 0 1-.654-.319Z"/>
+            </svg>
+            Xbox
+        </button>
+    </a>
+    <br>
+    Specific Games:<br>
+    <a href="https://r6.tracker.network/r6siege/profile/ubi/ally_to_all/overview">
+        <button class="btn-white">
+            <img alt=""
+                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArUlEQVR4AaXQIQjCUBSFYZNVQQRhzTUNdptYnGDvVVAZdowDu2A3aTBpXli1o2K2GESwGa7/YOmN8Xa3A1/9w6lkrIURFvDhoYlcc/GCGH5ow7o1JEMI6w6QhI8lJHHTBqaYIESEvTYQYIUAfTBdwLQrG7hrAheMsUUPV+2JZ8SrYohHkUAdTwigDzTwKRo4wYVoAxsIjugYgQjWdfGGGL5wkGsOPMwxwwA1pPYHWrdYV5huqgUAAAAASUVORK5CYII=">
+            Rainbow Six Siege - <code>Ally_To_All</code>
+        </button>
+    </a><a href="https://tracker.gg/valorant/profile/riot/Allyce%23ENBY/overview">
+    <button class="btn-white">
+        <img alt=""
+             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAKlBMVEVHcEz/RlT/RVP/RlT/RVT/RlT/RlT/RlT/RlT/RlT/RlT/RlT/RlT/RlQVcUneAAAADXRSTlMAtEw9JYYT6MKjcdZdcWyMmQAAAIRJREFUKJHF0UkSgCAMBEBWAXH+/10RggRJedS5SOjSQFTql2xv29FKZmN9aAjvbtCEYcVwIy1YIgbCz+bBEYabwYxwwxyeiIFYMXfLHNtXgNQsUelY/5L9KnYq7hN62ihztLRkd6O20hzrtGqEOY7jI4ro1l4sB+khar+f+OuVaZHxs5wWkwguENjHEwAAAABJRU5ErkJggg==">
+        Valorant - <code>Allyce#ENBY</code>
     </button>
 </a><a href="https://rocketleague.tracker.network/rocket-league/profile/epic/AllyToAll/overview">
-    <button>
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIACAAIAMBIgACEQEDEQH/xAAZAAACAwEAAAAAAAAAAAAAAAAGBwQFCAP/xAAtEAACAQMCBAQFBQAAAAAAAAABAgMEBRESIQAGEzEHIkFRYXGBkfAUFiNCYv/EABYBAQEBAAAAAAAAAAAAAAAAAAMEBf/EACIRAAEEAgAHAQAAAAAAAAAAAAEAAgMRBEETITFRcZHwEv/aAAwDAQACEQMRAD8AGrXY7rzLLLS2qgieSJcyyNLo0g9tRPvg4Hz9uOQ8PeZLjE6U9mm6kMjRykzxKAwwMbsPv65yNuDXw1e4xcwV9NRyUsEklOJGimiJWQKxGRggqRrHvkE/MEC3648v1VRT1tIk0tVLJL1mVo2mcaVJVMFemFCAEuNguTk5OzJM9ziAAfKOVojP4bpKKXw05zo0ZjZJXXuenLE5+ysTxP5Wp6yS4GkropaeoiGDFOhRk7/1Iz6HhvWTnWG4Vk0MseiEE9KpdekrhQNeckgYPxx6dxvE8Q7vb7ZcbNNV6mbRMyGJAzEeTGPgc+47cQSirD2a6J8aVweAlV+7YKWshqLTFUU1RGfLUF11Kvr/ABjIbb0LYPDiggvc8VHXPLZuYKcASwuIDTSaSAdSNl1OdtiFB23HGef0gifOcjgy5G5+r+V3koqmF6u1ai3TzhoidyUJ99zpOxO+RvlpJg/tf3pDw3uvabsdutdyqjd4BNbbjBGY5G0IrwZ3OpWDL2z5hkEdicAhLV7G8Xmd4qkz0cTslKWUIOlqJyFGwyST9ew2AtOcufqjmh2pbTTyUVCy9KUuwEtQpIOGxsFB9AT3OTuRxWW1fPlwF/yowBgY/PwcQ5OQIo6vmqsSBxdZX//Z"
-             alt=""> Rocket League - <code>AllyToAll</code>
+    <button class="btn-white">
+        <img alt=""
+             src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIACAAIAMBIgACEQEDEQH/xAAZAAACAwEAAAAAAAAAAAAAAAAGBwQFCAP/xAAtEAACAQMCBAQFBQAAAAAAAAABAgMEBRESIQAGEzEHIkFRYXGBkfAUFiNCYv/EABYBAQEBAAAAAAAAAAAAAAAAAAMEBf/EACIRAAEEAgAHAQAAAAAAAAAAAAEAAgMRBEETITFRcZHwEv/aAAwDAQACEQMRAD8AGrXY7rzLLLS2qgieSJcyyNLo0g9tRPvg4Hz9uOQ8PeZLjE6U9mm6kMjRykzxKAwwMbsPv65yNuDXw1e4xcwV9NRyUsEklOJGimiJWQKxGRggqRrHvkE/MEC3648v1VRT1tIk0tVLJL1mVo2mcaVJVMFemFCAEuNguTk5OzJM9ziAAfKOVojP4bpKKXw05zo0ZjZJXXuenLE5+ysTxP5Wp6yS4GkropaeoiGDFOhRk7/1Iz6HhvWTnWG4Vk0MseiEE9KpdekrhQNeckgYPxx6dxvE8Q7vb7ZcbNNV6mbRMyGJAzEeTGPgc+47cQSirD2a6J8aVweAlV+7YKWshqLTFUU1RGfLUF11Kvr/ABjIbb0LYPDiggvc8VHXPLZuYKcASwuIDTSaSAdSNl1OdtiFB23HGef0gifOcjgy5G5+r+V3koqmF6u1ai3TzhoidyUJ99zpOxO+RvlpJg/tf3pDw3uvabsdutdyqjd4BNbbjBGY5G0IrwZ3OpWDL2z5hkEdicAhLV7G8Xmd4qkz0cTslKWUIOlqJyFGwyST9ew2AtOcufqjmh2pbTTyUVCy9KUuwEtQpIOGxsFB9AT3OTuRxWW1fPlwF/yowBgY/PwcQ5OQIo6vmqsSBxdZX//Z">
+        Rocket League - <code>AllyToAll</code>
     </button>
 </a><a href="https://battlefieldtracker.com/bf1/profile/origin/AllyToAll/overview">
-    <button>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACMElEQVR4AXxMgwHEQBBMJ7Ft2+gt19mVtG9jjZkh3k3TNKrrOrQsC17XFbZtg2PHTdMgSZIo4p+VZYn6vodjh6Io7nna67qGcRwhTVP0lZznOY7jGKIoglN/ziRJ7vMRdxLBL2THcXbXdeGUsiwDwzDAsuw5OY4D0zTPadv2GROGIei6vh/qogINhaIoeEGpUlVVVdV7IRBABSCCIBCBABQFfUQopD/oiRAI0kcEXlARKghCCYFi9gxa7e52GPe6b86ZM/MUK5FI6Pwg3klGq9XCZDLBeDwGwbvkgUKhwEYOYTM4yO/36yqTyRgSDpupiNlshs1mg/V6jd1uh/l8jk6ng9VqhVwuB3K5ZTabRTqdNpQ0mmzUdZ1e6ZEnfYIqkUgEHMTq9XrweDwQUYKCpqLfUCiESqWC8/mMx+OBy+WC6/WKZrOJwWCA/X6PdruN5/OJYrFIPnPiBlCaplGFGWC73WI6nX4Hxl93u91Qr9cxGo3AWiwW9I5UKkVAxWIx0+fzodvt4n6/43Q64Xg84nA4cBP0+30KoFqtElgul2g0GggEAohGo6aSixGPx1Eul+mZQSGfz4PgnWuS7Ha7YbfbUSqVUKvVkEwmmYeh5FGTLUCCw+GA0+n8AfqV71QDT6/Xy0ZQ1GKxaIolj0MSwuHwH3D91/kCm10u11C9lwRjkhgMBqn6ERwggqb6r7gJSRxC3+/gOwVeyh/LZrNp4nEoTSYHEbxLRkOr1ar95n8B4NFszcKDsPgAAAAASUVORK5CYII="
-             alt=""> Battlefield 1 - <code>AllyToAll</code>
+    <button class="btn-white">
+        <img alt=""
+             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACMElEQVR4AXxMgwHEQBBMJ7Ft2+gt19mVtG9jjZkh3k3TNKrrOrQsC17XFbZtg2PHTdMgSZIo4p+VZYn6vodjh6Io7nna67qGcRwhTVP0lZznOY7jGKIoglN/ziRJ7vMRdxLBL2THcXbXdeGUsiwDwzDAsuw5OY4D0zTPadv2GROGIei6vh/qogINhaIoeEGpUlVVVdV7IRBABSCCIBCBABQFfUQopD/oiRAI0kcEXlARKghCCYFi9gxa7e52GPe6b86ZM/MUK5FI6Pwg3klGq9XCZDLBeDwGwbvkgUKhwEYOYTM4yO/36yqTyRgSDpupiNlshs1mg/V6jd1uh/l8jk6ng9VqhVwuB3K5ZTabRTqdNpQ0mmzUdZ1e6ZEnfYIqkUgEHMTq9XrweDwQUYKCpqLfUCiESqWC8/mMx+OBy+WC6/WKZrOJwWCA/X6PdruN5/OJYrFIPnPiBlCaplGFGWC73WI6nX4Hxl93u91Qr9cxGo3AWiwW9I5UKkVAxWIx0+fzodvt4n6/43Q64Xg84nA4cBP0+30KoFqtElgul2g0GggEAohGo6aSixGPx1Eul+mZQSGfz4PgnWuS7Ha7YbfbUSqVUKvVkEwmmYeh5FGTLUCCw+GA0+n8AfqV71QDT6/Xy0ZQ1GKxaIolj0MSwuHwH3D91/kCm10u11C9lwRjkhgMBqn6ERwggqb6r7gJSRxC3+/gOwVeyh/LZrNp4nEoTSYHEbxLRkOr1ar95n8B4NFszcKDsPgAAAAASUVORK5CYII=">
+        Battlefield 1 - <code>AllyToAll</code>
     </button>
 </a><br><a href="index.html">
-    <button>
+    <button class="btn-gray">
         Return
     </button>
 </a>
+</div>
 </body>
 </html>

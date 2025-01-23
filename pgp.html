@@ -3,8 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>allytoall@protonmail.com</title>
+    <style type="text/tailwindcss">
+        @layer components {
+            .btn-gray {
+                @apply bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded;
+            }
+
+            .btn-red {
+                @apply bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded;
+            }
+
+            .btn-green {
+                @apply bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded;
+            }
+
+            .btn-white {
+                @apply bg-neutral-50 hover:bg-neutral-100 text-black font-bold py-2 px-4 rounded;
+            }
+
+            .input {
+                @apply appearance-none border rounded max-w-md mx-auto py-2 px-3 text-gray-700 leading-tight focus:outline-none text-center;
+            }
+
+            .title {
+                @apply block text-gray-700 font-bold mb-2 text-xl text-center;
+            }
+
+            .background {
+                @apply w-full max-w-xs flex items-center justify-center min-h-screen min-w-full;
+            }
+
+            img, svg {
+                @apply h-4 w-4;
+            }
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body><pre>
+<body class="background">
+<div class="input">
+<pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGeDPt0BEADDv697HNkIMDOh/AG+xDfc7TUmP0QsTx54XH3GcQcMknYNCbTd
@@ -57,5 +95,11 @@ qXf3awItzaenrugmND0KNtcb7YagMzFH0h5NYQaahILjm38CwZTDQcP5PcwQz/fy
 Q/lldk5F6cH+
 =dMsD
 -----END PGP PUBLIC KEY BLOCK-----</pre>
+<a href="index.html">
+    <button class="btn-gray">
+        Return
+    </button>
+</a>
+</div>
 </body>
 </html>

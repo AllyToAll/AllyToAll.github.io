@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Pronouns</title>
+    <style type="text/tailwindcss">
+        @layer components {
+            .btn-gray {
+                @apply bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded;
+            }
+
+            .btn-red {
+                @apply bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded;
+            }
+
+            .btn-green {
+                @apply bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded;
+            }
+
+            .btn-white {
+                @apply bg-neutral-50 hover:bg-neutral-100 text-black font-bold py-2 px-4 rounded;
+            }
+
+            .input {
+                @apply appearance-none border rounded max-w-md mx-auto py-2 px-3 text-gray-700 leading-tight focus:outline-none text-center;
+            }
+
+            .title {
+                @apply block text-gray-700 font-bold mb-2 text-xl text-center;
+            }
+
+            .background {
+                @apply w-full max-w-xs flex items-center justify-center min-h-screen min-w-full;
+            }
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 <a href="https://en.pronouns.page/@Allyce">
     <img src="img.png" alt=""><br>
+</a>
+<a href="index.html">
+    <button class="btn-gray">
+        Return
+    </button>
 </a>
 </body>
 </html>
