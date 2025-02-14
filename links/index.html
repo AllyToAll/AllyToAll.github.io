@@ -47,6 +47,10 @@
         if (window.location.pathname.endsWith('/') && window.location.pathname !== '/') {
             window.history.replaceState({}, '', window.location.pathname.slice(0, -1));
         }
+        const x = "links";
+        if (window.location.pathname.endsWith('/'+x+'/index.html')) {
+            window.location.href = '/' + x;
+        }
     </script>
 </head>
 <body class="background">
