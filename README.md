@@ -30,4 +30,5 @@ Here is a quick skeleton of said website, including only external links you are 
 - [Blåhaj](https://myhajs.haiko-the-haj.com/plushie/406481120641810433/byte)
 - [Discord - <code>allyce.</code>](https://discord.com/users/406481120641810433)
 - [GnuPG Public Key](https://github.com/AllyToAll/AllyToAll.github.io/blob/main/publickey.asc)
+
 This site was built using [GitHub Pages](https://pages.github.com/).
