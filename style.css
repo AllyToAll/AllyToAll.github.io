@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@layer components {
+    .hoi4 {
+        @apply bg-gray-100;
+    }
+
+    .warno {
+        @apply bg-yellow-100;
+    }
+
+    .minecraft {
+        @apply bg-green-100;
+    }
+
+    .steam {
+        @apply bg-gray-700 hover:bg-gray-900 text-white;
+    }
+
+    .epic {
+        @apply bg-gray-600 hover:bg-gray-800 text-white;
+    }
+
+    .gog {
+        @apply bg-purple-500 hover:bg-purple-700 text-white;
+    }
+
+    .playstation {
+        @apply bg-blue-600 hover:bg-blue-800 text-white;
+    }
+
+    .xbox {
+        @apply bg-green-500 hover:bg-green-700 text-white;
+    }
+
+    .siege {
+        @apply bg-yellow-300 hover:bg-yellow-500 text-white;
+    }
+
+    .valorant {
+        @apply bg-red-300 hover:bg-red-500 text-white;
+    }
+
+    .rocket {
+        @apply bg-blue-400 hover:bg-blue-600 text-white;
+    }
+
+    .battlefield {
+        @apply bg-red-500 hover:bg-red-700 text-white;
+    }
+
+    .github {
+        @apply bg-gray-700 hover:bg-gray-900 text-white;
+    }
+
+    .discord {
+        @apply bg-indigo-300 hover:bg-indigo-500 text-white;
+    }
+
+    .pronoun {
+        @apply bg-pink-200 hover:bg-pink-400;
+    }
+
+    .blahaj {
+        @apply bg-sky-200 hover:bg-sky-400;
+    }
+
+    .gpg {
+        @apply bg-sky-300 hover:bg-sky-500 text-white;
+    }
+
+    .btn {
+        @apply inline-flex items-center gap-1 font-bold py-2 px-4 rounded;
+    }
+
+    .onlyfans {
+        @apply bg-sky-300 hover:bg-sky-500 text-white;
+    }
+
+    .bluesky {
+        @apply bg-blue-400 hover:bg-blue-600 text-white;
+    }
+
+    .github {
+        @apply bg-gray-700 hover:bg-gray-900 text-white;
+    }
+
+    .pinterest {
+        @apply bg-red-400 hover:bg-red-600 text-white;
+    }
+
+    .reddit {
+        @apply bg-orange-400 hover:bg-orange-600 text-white;
+    }
+
+    .signal {
+        @apply bg-blue-300 hover:bg-blue-500 text-white;
+    }
+
+    .tumblr {
+        @apply bg-slate-500 hover:bg-slate-700 text-white;
+    }
+
+    .twitch {
+        @apply bg-purple-400 hover:bg-purple-600 text-white;
+    }
+
+    .youtube {
+        @apply bg-red-400 hover:bg-red-600 text-white;
+    }
+
+    .xhs {
+        @apply bg-rose-400 hover:bg-rose-600 text-white;
+    }
+
+    .mastodon {
+        @apply bg-indigo-300 hover:bg-indigo-500 text-white;
+    }
+
+    .activision {
+        @apply bg-red-100;
+    }
+
+    .starbreeze {
+        @apply bg-orange-100;
+    }
+
+    .gray {
+        @apply bg-gray-500 hover:bg-gray-700 text-white;
+    }
+
+    .red {
+        @apply bg-red-500 hover:bg-red-700;
+    }
+
+    .green {
+        @apply bg-green-500 hover:bg-green-700 text-white;
+    }
+
+    .blue {
+        @apply bg-blue-500 hover:bg-blue-700 text-white;
+    }
+
+    .white {
+        @apply bg-neutral-50 hover:bg-neutral-100;
+    }
+
+    .input {
+        @apply bg-neutral-200 appearance-none border rounded max-w-md mx-auto py-2 px-3 text-gray-700 leading-tight focus:outline-none text-center;
+    }
+
+    .title {
+        @apply block text-gray-700 font-bold mb-2 text-xl text-center;
+    }
+
+    .background {
+        @apply w-full max-w-xs flex items-center justify-center min-h-screen min-w-full;
+    }
+
+    img, svg {
+        @apply h-4 w-4;
+    }
+}

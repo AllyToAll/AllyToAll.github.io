@@ -3,46 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>allytoall@protonmail.com</title>
-    <style type="text/tailwindcss">
-        @layer components {
-            .btn-gray {
-                @apply bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded;
-            }
-
-            .btn-red {
-                @apply bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded;
-            }
-
-            .btn-green {
-                @apply bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded;
-            }
-            .btn-blue {
-                @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
-            }
-
-
-            .btn-white {
-                @apply bg-neutral-50 hover:bg-neutral-100 text-black font-bold py-2 px-4 rounded;
-            }
-
-            .input {
-                @apply appearance-none border rounded max-w-md mx-auto py-2 px-3 text-gray-700 leading-tight focus:outline-none text-center;
-            }
-
-            .title {
-                @apply block text-gray-700 font-bold mb-2 text-xl text-center;
-            }
-
-            .background {
-                @apply w-full max-w-xs flex items-center justify-center min-h-screen min-w-full;
-            }
-
-            img, svg {
-                @apply h-4 w-4;
-            }
-        }
-    </style>
-    <script src="https://cdn.tailwindcss.com"></script>
     <script>
         if (window.location.pathname.endsWith('/') && window.location.pathname !== '/') {
             window.history.replaceState({}, '', window.location.pathname.slice(0, -1));
@@ -52,6 +12,7 @@
             window.location.href = '/' + x;
         }
     </script>
+    <link rel="stylesheet" href="../output.css">
 </head>
 <body class="background">
 <div class="input">
@@ -61,17 +22,17 @@
         GnuPG Public Key
     </a>
     <a href="https://github.com/AllyToAll/AllyToAll.github.io/blob/main/publickey.asc">
-        <button class="btn-green">
+        <button class="btn green">
             View
         </button>
     </a>
     <a href="https://allytoall.github.io/publickey.asc">
-        <button class="btn-blue">
+        <button class="btn blue">
             Download
         </button>
     </a>
     <a href="/">
-        <button class="btn-gray">
+        <button class="btn gray">
             Return
         </button>
     </a>
