@@ -3,76 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>ideas</title>
-    <style type="text/tailwindcss">
-        @layer components {
-            .btn-gray {
-                @apply bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded;
-            }
-
-            .btn-red {
-                @apply bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded;
-            }
-
-            .btn-green {
-                @apply bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded;
-            }
-
-            .btn-white {
-                @apply bg-neutral-50 hover:bg-neutral-100 text-black font-bold py-2 px-4 rounded;
-            }
-
-            .btn-github {
-                @apply bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded;
-            }
-
-            .btn-discord {
-                @apply bg-indigo-300 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded;
-            }
-
-            .btn-pronoun {
-                @apply bg-pink-200 hover:bg-pink-400 text-white font-bold py-2 px-4 rounded;
-            }
-
-            .btn-blahaj {
-                @apply bg-sky-200 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded;
-            }
-
-            .btn-gpg {
-                @apply bg-sky-300 hover:bg-sky-500 text-white font-bold py-2 px-4 rounded;
-            }
-
-            .input {
-                @apply bg-neutral-200 appearance-none border rounded max-w-md mx-auto py-2 px-3 text-gray-700 leading-tight focus:outline-none text-center;
-            }
-
-            .title {
-                @apply block text-gray-700 font-bold mb-2 text-xl text-center;
-            }
-
-            .background {
-                @apply w-full max-w-xs flex items-center justify-center min-h-screen min-w-full;
-            }
-
-            img, svg {
-                @apply h-4 w-4;
-            }
-        }
-    </style>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../output.css">
+    <script src="../urlHandling.js"></script>
 </head>
 <body class="background">
 <div class="input">
     <h1 class="title">
-        Ideas
+        Quotes
     </h1>
     Not trapped in my body but your perception
     <a href="https://www.instagram.com/p/BuC6gCphRfi">
-        <button class="btn-gray">
+        <button class="btn gray">
             Inspiration
         </button>
     </a><br>
     <a href="/">
-        <button class="btn-gray">
+        <button class="btn gray">
             Return
         </button>
     </a>
