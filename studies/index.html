@@ -55,11 +55,22 @@
             text-align: left;
         }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            function updateStudyCount() {
+                document.getElementById('count').textContent =
+                    `This page contains ${document.querySelectorAll('h1').length} studies`;
+            }
+
+            updateStudyCount();
+        });
+    </script>
 </head>
 <body>
 <p class="heading" id="h.x9ip7agndwu2">
     Studies
 </p>
+<p id="count">This page contains N studies</p><br>
 
 <h1 id="10.1001/jamanetworkopen.2021.4739">
     Evaluation of Anxiety and Depression in a Community Sample of Transgender Youth
