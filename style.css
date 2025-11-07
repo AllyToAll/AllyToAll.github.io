@@ -14,7 +14,7 @@
     }
 
     .steam {
-        @apply bg-gray-700 hover:bg-gray-900 text-white;
+        @apply bg-gray-900 hover:bg-gray-700 text-white;
     }
 
     .epic {
@@ -78,7 +78,7 @@
     }
 
     .github {
-        @apply bg-gray-700 hover:bg-gray-900 text-white;
+        @apply bg-gray-900 hover:bg-gray-700 text-white;
     }
 
     .pinterest {
@@ -142,7 +142,7 @@
     }
 
     .white {
-        @apply bg-neutral-50 hover:bg-neutral-100;
+        @apply bg-neutral-100 hover:bg-neutral-300;
     }
 
     .input {

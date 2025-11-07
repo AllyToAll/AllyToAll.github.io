@@ -50,8 +50,8 @@
     --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-gray-900: oklch(21% 0.034 264.665);
-    --color-neutral-50: oklch(98.5% 0 0);
     --color-neutral-100: oklch(97% 0 0);
+    --color-neutral-300: oklch(87% 0 0);
     --color-neutral-700: oklch(37.1% 0 0);
     --color-neutral-800: oklch(26.9% 0 0);
     --color-neutral-900: oklch(20.5% 0 0);
@@ -226,11 +226,11 @@
     background-color: var(--color-green-100);
   }
   .steam {
-    background-color: var(--color-gray-700);
+    background-color: var(--color-gray-900);
     color: var(--color-white);
     &:hover {
       @media (hover: hover) {
-        background-color: var(--color-gray-900);
+        background-color: var(--color-gray-700);
       }
     }
   }
@@ -368,11 +368,11 @@
     }
   }
   .github {
-    background-color: var(--color-gray-700);
+    background-color: var(--color-gray-900);
     color: var(--color-white);
     &:hover {
       @media (hover: hover) {
-        background-color: var(--color-gray-900);
+        background-color: var(--color-gray-700);
       }
     }
   }
@@ -501,10 +501,10 @@
     }
   }
   .white {
-    background-color: var(--color-neutral-50);
+    background-color: var(--color-neutral-100);
     &:hover {
       @media (hover: hover) {
-        background-color: var(--color-neutral-100);
+        background-color: var(--color-neutral-300);
       }
     }
   }
