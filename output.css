@@ -227,7 +227,6 @@
   }
   .steam {
     background-color: var(--color-gray-900);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-700);
@@ -236,7 +235,6 @@
   }
   .epic {
     background-color: var(--color-gray-600);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-800);
@@ -245,7 +243,6 @@
   }
   .gog {
     background-color: var(--color-purple-500);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-purple-700);
@@ -254,7 +251,6 @@
   }
   .playstation {
     background-color: var(--color-blue-600);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-800);
@@ -263,7 +259,6 @@
   }
   .xbox {
     background-color: var(--color-green-500);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-green-700);
@@ -272,7 +267,6 @@
   }
   .siege {
     background-color: var(--color-yellow-300);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-yellow-500);
@@ -281,7 +275,6 @@
   }
   .valorant {
     background-color: var(--color-red-300);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-red-500);
@@ -290,7 +283,6 @@
   }
   .rocket {
     background-color: var(--color-blue-400);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-600);
@@ -299,7 +291,6 @@
   }
   .battlefield {
     background-color: var(--color-red-500);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-red-700);
@@ -308,7 +299,6 @@
   }
   .github {
     background-color: var(--color-gray-700);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-900);
@@ -317,7 +307,6 @@
   }
   .discord {
     background-color: var(--color-indigo-300);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-indigo-500);
@@ -342,7 +331,6 @@
   }
   .gpg {
     background-color: var(--color-sky-300);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-sky-500);
@@ -351,7 +339,6 @@
   }
   .onlyfans {
     background-color: var(--color-sky-300);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-sky-500);
@@ -360,7 +347,6 @@
   }
   .bluesky {
     background-color: var(--color-blue-400);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-600);
@@ -369,7 +355,6 @@
   }
   .github {
     background-color: var(--color-gray-900);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-700);
@@ -378,7 +363,6 @@
   }
   .pinterest {
     background-color: var(--color-red-400);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-red-600);
@@ -387,7 +371,6 @@
   }
   .reddit {
     background-color: var(--color-orange-400);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-orange-600);
@@ -396,7 +379,6 @@
   }
   .signal {
     background-color: var(--color-blue-300);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-500);
@@ -405,7 +387,6 @@
   }
   .tumblr {
     background-color: var(--color-slate-500);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-slate-700);
@@ -414,7 +395,6 @@
   }
   .twitch {
     background-color: var(--color-purple-400);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-purple-600);
@@ -423,7 +403,6 @@
   }
   .youtube {
     background-color: var(--color-red-400);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-red-600);
@@ -432,7 +411,6 @@
   }
   .xhs {
     background-color: var(--color-rose-400);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-rose-600);
@@ -441,7 +419,6 @@
   }
   .mastodon {
     background-color: var(--color-indigo-300);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-indigo-500);
@@ -467,7 +444,6 @@
   }
   .gray {
     background-color: var(--color-gray-500);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-700);
@@ -484,7 +460,6 @@
   }
   .green {
     background-color: var(--color-green-500);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-green-700);
@@ -493,7 +468,6 @@
   }
   .blue {
     background-color: var(--color-blue-500);
-    color: var(--color-white);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-700);

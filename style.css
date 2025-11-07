@@ -14,47 +14,47 @@
     }
 
     .steam {
-        @apply bg-gray-900 hover:bg-gray-700 text-white;
+        @apply bg-gray-900 hover:bg-gray-700;
     }
 
     .epic {
-        @apply bg-gray-600 hover:bg-gray-800 text-white;
+        @apply bg-gray-600 hover:bg-gray-800;
     }
 
     .gog {
-        @apply bg-purple-500 hover:bg-purple-700 text-white;
+        @apply bg-purple-500 hover:bg-purple-700;
     }
 
     .playstation {
-        @apply bg-blue-600 hover:bg-blue-800 text-white;
+        @apply bg-blue-600 hover:bg-blue-800;
     }
 
     .xbox {
-        @apply bg-green-500 hover:bg-green-700 text-white;
+        @apply bg-green-500 hover:bg-green-700;
     }
 
     .siege {
-        @apply bg-yellow-300 hover:bg-yellow-500 text-white;
+        @apply bg-yellow-300 hover:bg-yellow-500;
     }
 
     .valorant {
-        @apply bg-red-300 hover:bg-red-500 text-white;
+        @apply bg-red-300 hover:bg-red-500;
     }
 
     .rocket {
-        @apply bg-blue-400 hover:bg-blue-600 text-white;
+        @apply bg-blue-400 hover:bg-blue-600;
     }
 
     .battlefield {
-        @apply bg-red-500 hover:bg-red-700 text-white;
+        @apply bg-red-500 hover:bg-red-700;
     }
 
     .github {
-        @apply bg-gray-700 hover:bg-gray-900 text-white;
+        @apply bg-gray-700 hover:bg-gray-900;
     }
 
     .discord {
-        @apply bg-indigo-300 hover:bg-indigo-500 text-white;
+        @apply bg-indigo-300 hover:bg-indigo-500;
     }
 
     .pronoun {
@@ -66,51 +66,51 @@
     }
 
     .gpg {
-        @apply bg-sky-300 hover:bg-sky-500 text-white;
+        @apply bg-sky-300 hover:bg-sky-500;
     }
 
     .onlyfans {
-        @apply bg-sky-300 hover:bg-sky-500 text-white;
+        @apply bg-sky-300 hover:bg-sky-500;
     }
 
     .bluesky {
-        @apply bg-blue-400 hover:bg-blue-600 text-white;
+        @apply bg-blue-400 hover:bg-blue-600;
     }
 
     .github {
-        @apply bg-gray-900 hover:bg-gray-700 text-white;
+        @apply bg-gray-900 hover:bg-gray-700;
     }
 
     .pinterest {
-        @apply bg-red-400 hover:bg-red-600 text-white;
+        @apply bg-red-400 hover:bg-red-600;
     }
 
     .reddit {
-        @apply bg-orange-400 hover:bg-orange-600 text-white;
+        @apply bg-orange-400 hover:bg-orange-600;
     }
 
     .signal {
-        @apply bg-blue-300 hover:bg-blue-500 text-white;
+        @apply bg-blue-300 hover:bg-blue-500;
     }
 
     .tumblr {
-        @apply bg-slate-500 hover:bg-slate-700 text-white;
+        @apply bg-slate-500 hover:bg-slate-700;
     }
 
     .twitch {
-        @apply bg-purple-400 hover:bg-purple-600 text-white;
+        @apply bg-purple-400 hover:bg-purple-600;
     }
 
     .youtube {
-        @apply bg-red-400 hover:bg-red-600 text-white;
+        @apply bg-red-400 hover:bg-red-600;
     }
 
     .xhs {
-        @apply bg-rose-400 hover:bg-rose-600 text-white;
+        @apply bg-rose-400 hover:bg-rose-600;
     }
 
     .mastodon {
-        @apply bg-indigo-300 hover:bg-indigo-500 text-white;
+        @apply bg-indigo-300 hover:bg-indigo-500;
     }
 
     .activision {
@@ -126,7 +126,7 @@
     }
 
     .gray {
-        @apply bg-gray-500 hover:bg-gray-700 text-white;
+        @apply bg-gray-500 hover:bg-gray-700 ;
     }
 
     .red {
@@ -134,11 +134,11 @@
     }
 
     .green {
-        @apply bg-green-500 hover:bg-green-700 text-white;
+        @apply bg-green-500 hover:bg-green-700 ;
     }
 
     .blue {
-        @apply bg-blue-500 hover:bg-blue-700 text-white;
+        @apply bg-blue-500 hover:bg-blue-700 ;
     }
 
     .white {
