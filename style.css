@@ -122,7 +122,7 @@
     }
 
     .btn {
-        @apply inline-flex items-center gap-1 font-bold py-2 px-4 rounded;
+        @apply inline-flex items-center gap-1 font-bold py-2 px-4 rounded text-gray-700;
     }
 
     .gray {
@@ -146,15 +146,15 @@
     }
 
     .input {
-        @apply bg-neutral-200 appearance-none border rounded max-w-md mx-auto py-2 px-3 text-gray-700 leading-tight focus:outline-none text-center;
+        @apply bg-neutral-800 border border-neutral-700 rounded max-w-md mx-auto py-4 px-6 text-neutral-100 text-center shadow-md;
     }
 
     .title {
-        @apply block text-gray-700 font-bold mb-2 text-xl text-center;
+        @apply text-neutral-100 font-bold mb-4 text-xl text-center;
     }
 
     .background {
-        @apply w-full max-w-xs flex items-center justify-center min-h-screen min-w-full;
+        @apply flex items-center justify-center min-h-screen min-w-full bg-neutral-900;
     }
 
     img, svg {
