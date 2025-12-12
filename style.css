@@ -157,7 +157,7 @@
         @apply flex items-center justify-center min-h-screen min-w-full bg-neutral-900;
     }
 
-    img, svg .icon {
+    img, svg {
         @apply h-4 w-4;
     }
 }
