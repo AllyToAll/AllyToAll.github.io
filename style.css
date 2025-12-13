@@ -1,32 +1,54 @@
 @import "tailwindcss";
 
+@theme {
+    --color-pronoun: #C71585;
+    --color-discord: #5865F2;
+    --color-gpg: #0093DD;
+    --color-onlyfans: #00AFF0;
+    --color-steam: #000000;
+    --color-epic: #313131;
+    --color-gog: #86328A;
+    --color-ps: #0070D1;
+    --color-valorant: #FA4454;
+    --color-reddit: #FF4500;
+    --color-youtube: #FF0000;
+    --color-twitch: #9146FF;
+    --color-signal: #3B45FD;
+    --color-tumblr: #36465D;
+    --color-xhs: #FF2442;
+    --color-mastodon: #6364FF;
+    --color-pinterest: #BD081C;
+    --color-github: #181717;
+    --color-bluesky: #1185FE;
+}
+
 @layer components {
     .hoi4 {
-        @apply bg-gray-100;
+        @apply bg-gray-900;
     }
 
     .warno {
-        @apply bg-yellow-100;
+        @apply bg-yellow-900;
     }
 
     .minecraft {
-        @apply bg-green-100;
+        @apply bg-green-900;
     }
 
     .steam {
-        @apply bg-gray-900 hover:bg-gray-700;
+        @apply bg-steam hover:bg-gray-700;
     }
 
     .epic {
-        @apply bg-gray-600 hover:bg-gray-800;
+        @apply bg-epic hover:bg-gray-800;
     }
 
     .gog {
-        @apply bg-purple-500 hover:bg-purple-700;
+        @apply bg-gog hover:bg-purple-700;
     }
 
     .playstation {
-        @apply bg-blue-600 hover:bg-blue-800;
+        @apply bg-ps hover:bg-blue-800;
     }
 
     .xbox {
@@ -38,7 +60,7 @@
     }
 
     .valorant {
-        @apply bg-red-300 hover:bg-red-500;
+        @apply bg-valorant hover:bg-red-500;
     }
 
     .rocket {
@@ -50,15 +72,15 @@
     }
 
     .github {
-        @apply bg-gray-700 hover:bg-gray-900;
+        @apply bg-github hover:bg-gray-900;
     }
 
     .discord {
-        @apply bg-indigo-300 hover:bg-indigo-500;
+        @apply bg-discord hover:bg-indigo-500;
     }
 
     .pronoun {
-        @apply bg-pink-200 hover:bg-pink-400;
+        @apply bg-pronoun hover:bg-pink-400;
     }
 
     .blahaj {
@@ -66,63 +88,63 @@
     }
 
     .gpg {
-        @apply bg-sky-300 hover:bg-sky-500;
+        @apply bg-gpg hover:bg-sky-500;
     }
 
     .onlyfans {
-        @apply bg-sky-300 hover:bg-sky-500;
+        @apply bg-onlyfans hover:bg-sky-500;
     }
 
     .bluesky {
-        @apply bg-blue-400 hover:bg-blue-600;
+        @apply bg-bluesky hover:bg-blue-600;
     }
 
     .github {
-        @apply bg-gray-900 hover:bg-gray-700;
+        @apply bg-github hover:bg-gray-700;
     }
 
     .pinterest {
-        @apply bg-red-400 hover:bg-red-600;
+        @apply bg-pinterest hover:bg-red-600;
     }
 
     .reddit {
-        @apply bg-orange-400 hover:bg-orange-600;
+        @apply bg-reddit hover:bg-orange-600;
     }
 
     .signal {
-        @apply bg-blue-300 hover:bg-blue-500;
+        @apply bg-signal hover:bg-blue-500;
     }
 
     .tumblr {
-        @apply bg-slate-500 hover:bg-slate-700;
+        @apply bg-tumblr hover:bg-slate-700;
     }
 
     .twitch {
-        @apply bg-purple-400 hover:bg-purple-600;
+        @apply bg-twitch hover:bg-purple-600;
     }
 
     .youtube {
-        @apply bg-red-400 hover:bg-red-600;
+        @apply bg-youtube hover:bg-red-600;
     }
 
     .xhs {
-        @apply bg-rose-400 hover:bg-rose-600;
+        @apply bg-xhs hover:bg-rose-600;
     }
 
     .mastodon {
-        @apply bg-indigo-300 hover:bg-indigo-500;
+        @apply bg-mastodon hover:bg-indigo-500;
     }
 
     .activision {
-        @apply bg-red-100;
+        @apply bg-red-900;
     }
 
     .starbreeze {
-        @apply bg-orange-100;
+        @apply bg-orange-900;
     }
 
     .btn {
-        @apply inline-flex items-center gap-1 font-bold py-2 px-4 rounded text-gray-700;
+        @apply inline-flex items-center gap-1 font-bold py-2 px-4 rounded;
     }
 
     .gray {
@@ -142,7 +164,7 @@
     }
 
     .white {
-        @apply bg-neutral-100 hover:bg-neutral-300;
+        @apply bg-neutral-900 hover:bg-neutral-700;
     }
 
     .input {
@@ -158,6 +180,6 @@
     }
 
     img, svg {
-        @apply h-4 w-4;
+        @apply h-4 w-4 invert;
     }
 }

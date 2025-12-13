@@ -7,46 +7,33 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-100: oklch(93.6% 0.032 17.717);
-    --color-red-300: oklch(80.8% 0.114 19.571);
-    --color-red-400: oklch(70.4% 0.191 22.216);
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-red-600: oklch(57.7% 0.245 27.325);
     --color-red-700: oklch(50.5% 0.213 27.518);
-    --color-orange-100: oklch(95.4% 0.038 75.164);
-    --color-orange-400: oklch(75% 0.183 55.934);
+    --color-red-900: oklch(39.6% 0.141 25.723);
     --color-orange-600: oklch(64.6% 0.222 41.116);
-    --color-yellow-100: oklch(97.3% 0.071 103.193);
+    --color-orange-900: oklch(40.8% 0.123 38.172);
     --color-yellow-300: oklch(90.5% 0.182 98.111);
     --color-yellow-500: oklch(79.5% 0.184 86.047);
-    --color-green-100: oklch(96.2% 0.044 156.743);
+    --color-yellow-900: oklch(42.1% 0.095 57.708);
     --color-green-500: oklch(72.3% 0.219 149.579);
     --color-green-700: oklch(52.7% 0.154 150.069);
+    --color-green-900: oklch(39.3% 0.095 152.535);
     --color-sky-200: oklch(90.1% 0.058 230.902);
-    --color-sky-300: oklch(82.8% 0.111 230.318);
     --color-sky-400: oklch(74.6% 0.16 232.661);
     --color-sky-500: oklch(68.5% 0.169 237.323);
-    --color-blue-300: oklch(80.9% 0.105 251.813);
     --color-blue-400: oklch(70.7% 0.165 254.624);
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-blue-700: oklch(48.8% 0.243 264.376);
     --color-blue-800: oklch(42.4% 0.199 265.638);
-    --color-indigo-300: oklch(78.5% 0.115 274.713);
     --color-indigo-500: oklch(58.5% 0.233 277.117);
-    --color-purple-400: oklch(71.4% 0.203 305.504);
-    --color-purple-500: oklch(62.7% 0.265 303.9);
     --color-purple-600: oklch(55.8% 0.288 302.321);
     --color-purple-700: oklch(49.6% 0.265 301.924);
-    --color-pink-200: oklch(89.9% 0.061 343.231);
     --color-pink-400: oklch(71.8% 0.202 349.761);
-    --color-rose-400: oklch(71.2% 0.194 13.428);
     --color-rose-600: oklch(58.6% 0.253 17.585);
-    --color-slate-500: oklch(55.4% 0.046 257.417);
     --color-slate-700: oklch(37.2% 0.044 257.287);
-    --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-500: oklch(55.1% 0.027 264.364);
-    --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-gray-900: oklch(21% 0.034 264.665);
@@ -64,6 +51,25 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --color-pronoun: #C71585;
+    --color-discord: #5865F2;
+    --color-gpg: #0093DD;
+    --color-onlyfans: #00AFF0;
+    --color-steam: #000000;
+    --color-epic: #313131;
+    --color-gog: #86328A;
+    --color-ps: #0070D1;
+    --color-valorant: #FA4454;
+    --color-reddit: #FF4500;
+    --color-youtube: #FF0000;
+    --color-twitch: #9146FF;
+    --color-signal: #3B45FD;
+    --color-tumblr: #36465D;
+    --color-xhs: #FF2442;
+    --color-mastodon: #6364FF;
+    --color-pinterest: #BD081C;
+    --color-github: #181717;
+    --color-bluesky: #1185FE;
   }
 }
 @layer base {
@@ -238,16 +244,16 @@
 }
 @layer components {
   .hoi4 {
-    background-color: var(--color-gray-100);
+    background-color: var(--color-gray-900);
   }
   .warno {
-    background-color: var(--color-yellow-100);
+    background-color: var(--color-yellow-900);
   }
   .minecraft {
-    background-color: var(--color-green-100);
+    background-color: var(--color-green-900);
   }
   .steam {
-    background-color: var(--color-gray-900);
+    background-color: var(--color-steam);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-700);
@@ -255,7 +261,7 @@
     }
   }
   .epic {
-    background-color: var(--color-gray-600);
+    background-color: var(--color-epic);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-800);
@@ -263,7 +269,7 @@
     }
   }
   .gog {
-    background-color: var(--color-purple-500);
+    background-color: var(--color-gog);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-purple-700);
@@ -271,7 +277,7 @@
     }
   }
   .playstation {
-    background-color: var(--color-blue-600);
+    background-color: var(--color-ps);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-800);
@@ -295,7 +301,7 @@
     }
   }
   .valorant {
-    background-color: var(--color-red-300);
+    background-color: var(--color-valorant);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-red-500);
@@ -319,7 +325,7 @@
     }
   }
   .github {
-    background-color: var(--color-gray-700);
+    background-color: var(--color-github);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-900);
@@ -327,7 +333,7 @@
     }
   }
   .discord {
-    background-color: var(--color-indigo-300);
+    background-color: var(--color-discord);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-indigo-500);
@@ -335,7 +341,7 @@
     }
   }
   .pronoun {
-    background-color: var(--color-pink-200);
+    background-color: var(--color-pronoun);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-pink-400);
@@ -351,7 +357,7 @@
     }
   }
   .gpg {
-    background-color: var(--color-sky-300);
+    background-color: var(--color-gpg);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-sky-500);
@@ -359,7 +365,7 @@
     }
   }
   .onlyfans {
-    background-color: var(--color-sky-300);
+    background-color: var(--color-onlyfans);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-sky-500);
@@ -367,7 +373,7 @@
     }
   }
   .bluesky {
-    background-color: var(--color-blue-400);
+    background-color: var(--color-bluesky);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-600);
@@ -375,7 +381,7 @@
     }
   }
   .github {
-    background-color: var(--color-gray-900);
+    background-color: var(--color-github);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-700);
@@ -383,7 +389,7 @@
     }
   }
   .pinterest {
-    background-color: var(--color-red-400);
+    background-color: var(--color-pinterest);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-red-600);
@@ -391,7 +397,7 @@
     }
   }
   .reddit {
-    background-color: var(--color-orange-400);
+    background-color: var(--color-reddit);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-orange-600);
@@ -399,7 +405,7 @@
     }
   }
   .signal {
-    background-color: var(--color-blue-300);
+    background-color: var(--color-signal);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-500);
@@ -407,7 +413,7 @@
     }
   }
   .tumblr {
-    background-color: var(--color-slate-500);
+    background-color: var(--color-tumblr);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-slate-700);
@@ -415,7 +421,7 @@
     }
   }
   .twitch {
-    background-color: var(--color-purple-400);
+    background-color: var(--color-twitch);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-purple-600);
@@ -423,7 +429,7 @@
     }
   }
   .youtube {
-    background-color: var(--color-red-400);
+    background-color: var(--color-youtube);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-red-600);
@@ -431,7 +437,7 @@
     }
   }
   .xhs {
-    background-color: var(--color-rose-400);
+    background-color: var(--color-xhs);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-rose-600);
@@ -439,7 +445,7 @@
     }
   }
   .mastodon {
-    background-color: var(--color-indigo-300);
+    background-color: var(--color-mastodon);
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-indigo-500);
@@ -447,10 +453,10 @@
     }
   }
   .activision {
-    background-color: var(--color-red-100);
+    background-color: var(--color-red-900);
   }
   .starbreeze {
-    background-color: var(--color-orange-100);
+    background-color: var(--color-orange-900);
   }
   .btn {
     display: inline-flex;
@@ -461,7 +467,6 @@
     padding-block: calc(var(--spacing) * 2);
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
-    color: var(--color-gray-700);
   }
   .gray {
     background-color: var(--color-gray-500);
@@ -496,10 +501,10 @@
     }
   }
   .white {
-    background-color: var(--color-neutral-100);
+    background-color: var(--color-neutral-900);
     &:hover {
       @media (hover: hover) {
-        background-color: var(--color-neutral-300);
+        background-color: var(--color-neutral-700);
       }
     }
   }
@@ -538,6 +543,8 @@
   img, svg {
     height: calc(var(--spacing) * 4);
     width: calc(var(--spacing) * 4);
+    --tw-invert: invert(100%);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
 }
 @property --tw-rotate-x {
@@ -634,6 +641,59 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
+@property --tw-blur {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-brightness {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-contrast {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-grayscale {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-hue-rotate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-invert {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-opacity {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-saturate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-sepia {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-drop-shadow-size {
+  syntax: "*";
+  inherits: false;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -658,6 +718,19 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-blur: initial;
+      --tw-brightness: initial;
+      --tw-contrast: initial;
+      --tw-grayscale: initial;
+      --tw-hue-rotate: initial;
+      --tw-invert: initial;
+      --tw-opacity: initial;
+      --tw-saturate: initial;
+      --tw-sepia: initial;
+      --tw-drop-shadow: initial;
+      --tw-drop-shadow-color: initial;
+      --tw-drop-shadow-alpha: 100%;
+      --tw-drop-shadow-size: initial;
     }
   }
 }
