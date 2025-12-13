@@ -20,11 +20,12 @@
     --color-pinterest: #BD081C;
     --color-github: #181717;
     --color-bluesky: #1185FE;
+    --color-pdx: #101010;
 }
 
 @layer components {
     .hoi4 {
-        @apply bg-gray-900;
+        @apply bg-pdx;
     }
 
     .warno {

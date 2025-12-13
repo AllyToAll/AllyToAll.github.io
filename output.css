@@ -38,7 +38,6 @@
     --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-gray-900: oklch(21% 0.034 264.665);
     --color-neutral-100: oklch(97% 0 0);
-    --color-neutral-300: oklch(87% 0 0);
     --color-neutral-700: oklch(37.1% 0 0);
     --color-neutral-800: oklch(26.9% 0 0);
     --color-neutral-900: oklch(20.5% 0 0);
@@ -70,6 +69,7 @@
     --color-pinterest: #BD081C;
     --color-github: #181717;
     --color-bluesky: #1185FE;
+    --color-pdx: #101010;
   }
 }
 @layer base {
@@ -244,7 +244,7 @@
 }
 @layer components {
   .hoi4 {
-    background-color: var(--color-gray-900);
+    background-color: var(--color-pdx);
   }
   .warno {
     background-color: var(--color-yellow-900);
