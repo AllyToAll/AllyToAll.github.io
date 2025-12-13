@@ -70,6 +70,7 @@
     --color-github: #181717;
     --color-bluesky: #1185FE;
     --color-pdx: #101010;
+    --color-activision: #000000;
   }
 }
 @layer base {
@@ -453,7 +454,7 @@
     }
   }
   .activision {
-    background-color: var(--color-red-900);
+    background-color: var(--color-activision);
   }
   .starbreeze {
     background-color: var(--color-orange-900);

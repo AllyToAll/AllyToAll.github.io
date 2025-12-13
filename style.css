@@ -21,6 +21,7 @@
     --color-github: #181717;
     --color-bluesky: #1185FE;
     --color-pdx: #101010;
+    --color-activision: #000000;
 }
 
 @layer components {
@@ -137,7 +138,7 @@
     }
 
     .activision {
-        @apply bg-red-900;
+        @apply bg-activision;
     }
 
     .starbreeze {
