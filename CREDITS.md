@@ -4,7 +4,7 @@
 
 - pfp
   © Allyce
-  https://allycetoall.github.io/thumbnails/pfp.jpg
+  https://allytoall.github.io/thumbnails/pfp.jpg
 
 # Third-party assets
 
