@@ -1,5 +1,11 @@
 # First-party assets
 
+## Licence: [AGPL-3.0-or-later](https://spdx.org/licenses/AGPL-3.0-or-later) <img src="thumbnails/AGPLv3_Logo.svg" alt="AGPL-3.0-or-later" height="24" />
+
+- Website code, scripts, configuration, and documentation  
+  © Allyce  
+  https://allytoall.github.io/
+
 ## Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="24" />
 
 - pfp
@@ -68,6 +74,10 @@ Unless otherwise specified:
   Modified from original by redrawing and removing 1 arrow
   This adapted version (Two_Arrows) is licenced by © Allyce
   under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
+
+- agplv3-with-text-162x68
+  © Free Software Foundation
+  https://www.gnu.org/graphics/license-logos.en.html
 
 ### Brand guidelines
 
