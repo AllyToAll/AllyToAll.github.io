@@ -56,6 +56,13 @@ Unless otherwise specified:
   alleZSoyez
   https://moremoji.allezsoyez.com/
 
+### Licence: [Public Domain](https://creativecommons.org/public-domain/)
+
+- Three Arrows Symbol
+  https://commons.wikimedia.org/wiki/File:Drei_Pfeile.svg
+  Modified from original by redrawing and removing 1 arrow
+  This adapted version (Two_Arrows) is licenced under CC BY-SA 4.0
+
 ### Brand guidelines
 
 The following logos are represented via Simple Icons redraws and are used in accordance with their respective brand
