@@ -76,7 +76,7 @@ Unless otherwise specified:
   This adapted version (Two_Arrows) is licenced by © Allyce
   under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
 
-- agplv3-with-text-162x68
+- AGPLv3_Logo
   © Free Software Foundation
   https://www.gnu.org/graphics/license-logos.en.html
 
