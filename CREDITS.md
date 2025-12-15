@@ -65,6 +65,7 @@ Unless otherwise specified:
 
 - Creative Commons logos
   © Creative Commons
+  Used in accordance to its brand guidelines
   https://creativecommons.org/mission/downloads/
 
 ### Licence: [Public Domain](https://creativecommons.org/public-domain/pdm/) <img src="thumbnails/publicdomain.svg" alt="Public Domain Mark" height="20" />
