@@ -1,14 +1,14 @@
 # First-party assets
 
-## Licence: [AGPL-3.0-or-later](https://spdx.org/licenses/AGPL-3.0-or-later) <img src="thumbnails/AGPLv3_Logo.svg" alt="AGPL-3.0-or-later" height="24" />
+## Licence: [AGPL-3.0-or-later](https://spdx.org/licenses/AGPL-3.0-or-later) <img src="/thumbnails/AGPLv3_Logo.svg" alt="AGPL-3.0-or-later" height="24" />
 
 - Website code, scripts, configuration, and documentation  
   © Allyce  
   https://allytoall.github.io/
 
-## Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="24" />
+## Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="24" />
 
-- pfp
+- pfp <img src="/thumbnails/pfp.jpg" alt="pfp" height="16" />
   © Allyce
   https://allytoall.github.io/thumbnails/pfp.jpg
 
@@ -36,7 +36,7 @@ Unless otherwise specified:
 - Trademarks remain the property of their respective owners
 - No endorsement or affiliation is implied
 
-### Licence: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) <img src="thumbnails/cc-zero.svg" alt="CC0 1.0" height="24" />
+### Licence: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) <img src="/thumbnails/cc-zero.svg" alt="CC0 1.0" height="24" />
 
 - Icons and badges sourced from **Simple Icons**  
   https://simpleicons.org
@@ -46,20 +46,22 @@ Unless otherwise specified:
 - **Licence: [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later)**
     - GNU Privacy Guard icon
 
-### Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="20" />
+### Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="20" />
 
-- Blobhaj_Default
+- Blobhaj_Default <img src="/thumbnails/Blobhaj_Default.svg" alt="Blobhaj_Default" height="16" />
   © Heatherhorns
   https://heatherhorns.com/wp-content/uploads/2022/12/Blobhaj-12-13-2022.zip
 
-- TQILA_Flag
+- TQILA_Flag <img src="/thumbnails/TQILA_Flag.svg" alt="TQILA_Flag" height="16" />
   © TQILA
   https://archive.org/details/TQILAFlag
   Modified from original by removing background
-  This adapted version (TQILA_Flag_nobackground) is licenced by © Allyce
-  under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
+  This adapted version (
+  TQILA_Flag_nobackground) <img src="/thumbnails/TQILA_Flag_nobackground.svg" alt="TQILA_Flag_nobackground" height="16" />
+  is licenced by © Allyce
+  under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
 
-- MOREmoji_nonbinary
+- MOREmoji_nonbinary <img src="/thumbnails/MOREmoji_nonbinary.svg" alt="MOREmoji_nonbinary" height="16" />
   © alleZSoyez
   https://moremoji.allezsoyez.com/
 
@@ -68,15 +70,16 @@ Unless otherwise specified:
   Used in accordance to its brand guidelines
   https://creativecommons.org/mission/downloads/
 
-### Licence: [Public Domain](https://creativecommons.org/public-domain/pdm/) <img src="thumbnails/publicdomain.svg" alt="Public Domain Mark" height="20" />
+### Licence: [Public Domain](https://creativecommons.org/public-domain/pdm/) <img src="/thumbnails/publicdomain.svg" alt="Public Domain Mark" height="20" />
 
 - Three Arrows Symbol
   https://commons.wikimedia.org/wiki/File:Drei_Pfeile.svg
   Modified from original by redrawing and removing 1 arrow
-  This adapted version (Two_Arrows) is licenced by © Allyce
-  under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
+  This adapted version (Two_Arrows) <img src="/thumbsnails/Two_Arrows.svg" alt="Two_Arrows" height=16/> is licenced by ©
+  Allyce
+  under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
 
-- AGPLv3_Logo
+- AGPLv3_Logo <img src="/thumbnails/AGPLv3_Logo.svg" alt="AGPLv3_Logo" height="16" />
   © Free Software Foundation
   https://www.gnu.org/graphics/license-logos.en.html
 
