@@ -46,11 +46,11 @@ Unless otherwise specified:
   © Heatherhorns
   https://heatherhorns.com/wp-content/uploads/2022/12/Blobhaj-12-13-2022.zip
 
-- TQILA flag
+- TQILA_Flag
   © TQILA
   https://archive.org/details/TQILAFlag
   Modified from original by removing background
-  This adapted version is also licenced under CC BY-SA 4.0
+  This adapted version (TQILA_Flag_nobackground) is also licenced under CC BY-SA 4.0
 
 - MOREmoji_nonbinary
   alleZSoyez
