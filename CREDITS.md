@@ -3,7 +3,8 @@
 ## Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 - pfp
-  © Allyce, licensed under CC BY-SA 4.0
+  © Allyce
+  https://allycetoall.github.io/thumbnails/pfp.jpg
 
 # Third-party assets
 
