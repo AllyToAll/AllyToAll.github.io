@@ -1,6 +1,6 @@
 # First-party assets
 
-## Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+## Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="24" />
 
 - pfp
   © Allyce
@@ -30,7 +30,7 @@ Unless otherwise specified:
 - Trademarks remain the property of their respective owners
 - No endorsement or affiliation is implied
 
-### Licence: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+### Licence: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) <img src="thumbnails/cc-zero.svg" alt="CC0 1.0" height="24" />
 
 - Icons and badges sourced from **Simple Icons**  
   https://simpleicons.org
@@ -40,7 +40,7 @@ Unless otherwise specified:
 - **Licence: [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later)**
     - GNU Privacy Guard icon
 
-### Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+### Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="20" />
 
 - Blobhaj_Default
   © Heatherhorns
@@ -50,18 +50,24 @@ Unless otherwise specified:
   © TQILA
   https://archive.org/details/TQILAFlag
   Modified from original by removing background
-  This adapted version (TQILA_Flag_nobackground) is also licenced under CC BY-SA 4.0
+  This adapted version (TQILA_Flag_nobackground) is licenced by © Allyce
+  under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
 
 - MOREmoji_nonbinary
   alleZSoyez
   https://moremoji.allezsoyez.com/
 
-### Licence: [Public Domain](https://creativecommons.org/public-domain/)
+- Creative Commons logos
+  © Creative Commons
+  https://creativecommons.org/mission/downloads/
+
+### Licence: [Public Domain](https://creativecommons.org/public-domain/pdm/) <img src="thumbnails/publicdomain.svg" alt="Public Domain Mark" height="20" />
 
 - Three Arrows Symbol
   https://commons.wikimedia.org/wiki/File:Drei_Pfeile.svg
   Modified from original by redrawing and removing 1 arrow
-  This adapted version (Two_Arrows) is licenced under CC BY-SA 4.0
+  This adapted version (Two_Arrows) is licenced by © Allyce
+  under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
 
 ### Brand guidelines
 
