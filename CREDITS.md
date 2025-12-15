@@ -84,6 +84,10 @@ Unless otherwise specified:
   © Free Software Foundation
   https://www.gnu.org/graphics/license-logos.en.html
 
+- Anarchist_black_cat <img src="/thumbnails/Anarchist_black_cat.svg" alt="Anarchist_black_cat" height="16" />
+  © IWW
+  https://commons.wikimedia.org/wiki/File:Anarchist_black_cat.svg
+
 ### Brand guidelines
 
 The following logos are represented via Simple Icons redraws and are used in accordance with their respective brand
