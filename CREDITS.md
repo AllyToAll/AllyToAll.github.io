@@ -60,7 +60,7 @@ Unless otherwise specified:
   under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
 
 - MOREmoji_nonbinary
-  alleZSoyez
+  © alleZSoyez
   https://moremoji.allezsoyez.com/
 
 - Creative Commons logos
