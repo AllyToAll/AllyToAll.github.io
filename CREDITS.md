@@ -75,7 +75,7 @@ Unless otherwise specified:
 - Three Arrows Symbol <img src="/thumbnails/Drei_Pfeile.svg" alt="Three Arrows" height="16" />
   https://commons.wikimedia.org/wiki/File:Drei_Pfeile.svg
   Modified from original by redrawing and removing 1 arrow
-  This adapted version (Two_Arrows)  <img src="/thumbnails/Two_Arrows.svg" alt="Two_Arrows" height="16" /> is licenced
+  This adapted version (Two_Arrows) <img src="/thumbnails/Two_Arrows.svg" alt="Two_Arrows" height="16" /> is licenced
   by ©
   Allyce
   under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
