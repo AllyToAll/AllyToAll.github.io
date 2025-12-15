@@ -1,11 +1,11 @@
 # Third-party assets
 
 This project includes third-party assets.  
-The AGPL-3.0 license does **not** apply to third-party assets unless explicitly stated otherwise.
+The AGPL-3.0 licence does **not** apply to third-party assets unless explicitly stated otherwise.
 
-All third-party assets remain subject to their respective licenses and/or trademark policies and are used in accordance
+All third-party assets remain subject to their respective licences and/or trademark policies and are used in accordance
 with their terms.  
-This applies primarily to **logos, icons, and badges** displayed in this repository and on the associated GitHub Pages
+This applies primarily to **logos, icons and badges** displayed in this repository and on the associated GitHub Pages
 site.
 
 ## Logos & badges used
