@@ -4,7 +4,7 @@
 
 ### Code
 
-© Allyce  
+© Allyce
 https://allytoall.github.io/
 
 ## Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="24" />
