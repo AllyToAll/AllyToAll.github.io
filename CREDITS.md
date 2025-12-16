@@ -39,9 +39,6 @@ The following third-party assets are used for visual representation only (e.g. i
 Where licenced, usage is in accordance with the applicable licence terms.  
 Where trademarked, usage is in accordance with the applicable brand guidelines.
 
-At present, individual assets have not yet been fully reviewed and documented.  
-Licensing and trademark information will be added once each asset has been reviewed.
-
 Unless otherwise specified:
 
 - Third-party assets should be assumed to be **separately licenced** from the project code
