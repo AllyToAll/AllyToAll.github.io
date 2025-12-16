@@ -102,7 +102,7 @@ Phrase: I'm not debating my right to exist with you, get bent.
 © Unknown Author
 Sourced from
 Considered an orphaned work as per
-https://creativecommons.org/orphaned-works/
+https://en.wikipedia.org/wiki/Orphan_work
 
 ### Brand guidelines
 
