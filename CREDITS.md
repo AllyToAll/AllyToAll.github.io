@@ -22,6 +22,14 @@ https://allytoall.github.io/thumbnails/Two_Arrows.svg
 © Allyce
 https://allytoall.github.io/thumbnails/TQILA_Flag_nobackground.svg
 
+## Creative works (Licence: [CC0 1.0](https://creativecommons.org/public-domain/cc0/) <img src="/thumbnails/cc-zero.svg" alt="CC0 1.0" height="24" />)
+
+### anarchy <img src="/thumbnails/anarchy.svg" alt="anarchy" height="20" />
+
+© Allyce
+https://allytoall.github.io/thumbnails/anarchy.svg
+This SVG is a trivial geometric shape and is dedicated to the public domain (CC0).
+
 # Third-party assets
 
 This project includes third-party assets.  
