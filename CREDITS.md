@@ -47,7 +47,7 @@ Unless otherwise specified:
 
 ### Licence: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) <img src="/thumbnails/cc-zero.svg" alt="CC0 1.0" height="24" />
 
-- Icons and badges sourced from **Simple Icons**  
+- Icons and badges sourced from Simple Icons
   https://simpleicons.org
 
 ### Exceptions (as specified by Simple Icons)
