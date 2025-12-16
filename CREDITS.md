@@ -1,20 +1,18 @@
 # First-party assets
 
-## Licence: [AGPL-3.0-or-later](https://spdx.org/licenses/AGPL-3.0-or-later) <img src="/thumbnails/AGPLv3_Logo.svg" alt="AGPL-3.0-or-later" height="24" />
-
-### Code
+## Software (Licence: [AGPL-3.0-or-later](https://spdx.org/licenses/AGPL-3.0-or-later) <img src="/thumbnails/AGPLv3_Logo.svg" alt="AGPL-3.0-or-later" height="24" />)
 
 © Allyce
 https://allytoall.github.io/
 
-## Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="24" />
+## Creative works (Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="24" />)
 
 ### pfp <img src="/thumbnails/pfp.jpg" alt="pfp" height="20" />
 
 © Allyce
 https://allytoall.github.io/thumbnails/pfp.jpg
 
-### Two_Arrows  <img src="/thumbnails/Two_Arrows.svg" alt="Two_Arrows" height="20" />
+### Two_Arrows <img src="/thumbnails/Two_Arrows.svg" alt="Two_Arrows" height="20" />
 
 © Allyce
 https://allytoall.github.io/thumbnails/Two_Arrows.svg
@@ -97,6 +95,14 @@ Unless otherwise specified:
 - Anarchist_black_cat <img src="/thumbnails/Anarchist_black_cat.svg" alt="Anarchist_black_cat" height="16" />
   © IWW
   https://commons.wikimedia.org/wiki/File:Anarchist_black_cat.svg
+
+### Licence: Orphaned Works
+
+Phrase: I'm not debating my right to exist with you, get bent.
+© Unknown Author
+Sourced from
+Considered an orphaned work as per
+https://creativecommons.org/orphaned-works/
 
 ### Brand guidelines
 
