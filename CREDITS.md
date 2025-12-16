@@ -68,8 +68,8 @@ Unless otherwise specified:
   © TQILA
   https://archive.org/details/TQILAFlag
   Modified from original by removing background
-  This adapted version (
-  TQILA_Flag_nobackground) <img src="/thumbnails/TQILA_Flag_nobackground.svg" alt="TQILA_Flag_nobackground" height="16" />
+  This adapted
+  version [TQILA_Flag_nobackground](https://github.com/AllyToAll/AllyToAll.github.io/blob/main/CREDITS.md#tqila_flag_nobackground-) <img src="/thumbnails/TQILA_Flag_nobackground.svg" alt="TQILA_Flag_nobackground" height="16" />
   is licenced by © Allyce
   under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
 
@@ -87,7 +87,9 @@ Unless otherwise specified:
 - Three Arrows Symbol <img src="/thumbnails/Drei_Pfeile.svg" alt="Three Arrows" height="16" />
   https://commons.wikimedia.org/wiki/File:Drei_Pfeile.svg
   Modified from original by redrawing and removing 1 arrow
-  This adapted version (Two_Arrows) <img src="/thumbnails/Two_Arrows.svg" alt="Two_Arrows" height="16" /> is licenced
+  This adapted
+  version [Two_Arrows](https://github.com/AllyToAll/AllyToAll.github.io/blob/main/CREDITS.md#two_arrows--) <img src="/thumbnails/Two_Arrows.svg" alt="Two_Arrows" height="16" />
+  is licenced
   by © Allyce
   under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
 
