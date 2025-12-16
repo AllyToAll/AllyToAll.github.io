@@ -2,15 +2,27 @@
 
 ## Licence: [AGPL-3.0-or-later](https://spdx.org/licenses/AGPL-3.0-or-later) <img src="/thumbnails/AGPLv3_Logo.svg" alt="AGPL-3.0-or-later" height="24" />
 
-- Website code, scripts, configuration, and documentation  
-  © Allyce  
-  https://allytoall.github.io/
+### Code
+
+© Allyce  
+https://allytoall.github.io/
 
 ## Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="24" />
 
-- pfp <img src="/thumbnails/pfp.jpg" alt="pfp" height="16" />
-  © Allyce
-  https://allytoall.github.io/thumbnails/pfp.jpg
+### pfp <img src="/thumbnails/pfp.jpg" alt="pfp" height="20" />
+
+© Allyce
+https://allytoall.github.io/thumbnails/pfp.jpg
+
+### Two_Arrows  <img src="/thumbnails/Two_Arrows.svg" alt="Two_Arrows" height="20" />
+
+© Allyce
+https://allytoall.github.io/thumbnails/Two_Arrows.svg
+
+### TQILA_Flag_nobackground <img src="/thumbnails/TQILA_Flag_nobackground.svg" alt="TQILA_Flag_nobackground" height="20" />
+
+© Allyce
+https://allytoall.github.io/thumbnails/TQILA_Flag_nobackground.svg
 
 # Third-party assets
 
@@ -76,8 +88,7 @@ Unless otherwise specified:
   https://commons.wikimedia.org/wiki/File:Drei_Pfeile.svg
   Modified from original by redrawing and removing 1 arrow
   This adapted version (Two_Arrows) <img src="/thumbnails/Two_Arrows.svg" alt="Two_Arrows" height="16" /> is licenced
-  by ©
-  Allyce
+  by © Allyce
   under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) <img src="/thumbnails/by-sa.svg" alt="CC BY-SA 4.0" height="16" />
 
 - AGPLv3_Logo <img src="/thumbnails/AGPLv3_Logo.svg" alt="AGPLv3_Logo" height="16" />
