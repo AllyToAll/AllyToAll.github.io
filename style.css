@@ -30,12 +30,12 @@
     }
 
     .page-iframe {
-        @apply absolute top-0 left-0 w-full h-[90svh] border-0;
+        @apply block w-full border-0;
+        height: 90vh;
     }
 
     .page-footer {
-        @apply absolute bottom-5 left-1/2 -translate-x-1/2
-        flex gap-5 z-10;
+        @apply absolute bottom-5 left-1/2 -translate-x-1/2 flex gap-5 z-10;
     }
 
     .hoi4 {

@@ -254,13 +254,11 @@
     background-color: var(--color-neutral-900);
   }
   .page-iframe {
-    position: absolute;
-    top: calc(var(--spacing) * 0);
-    left: calc(var(--spacing) * 0);
-    height: 90vh;
+    display: block;
     width: 100%;
     border-style: var(--tw-border-style);
     border-width: 0px;
+    height: 90vh;
   }
   .page-footer {
     position: absolute;
