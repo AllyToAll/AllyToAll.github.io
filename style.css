@@ -25,6 +25,19 @@
 }
 
 @layer components {
+    .page {
+        @apply relative w-screen h-screen bg-neutral-900;
+    }
+
+    .page-iframe {
+        @apply absolute top-0 left-0 w-full h-[90vh] border-0;
+    }
+
+    .page-footer {
+        @apply absolute bottom-5 left-1/2 -translate-x-1/2
+        flex gap-5 z-10;
+    }
+
     .hoi4 {
         @apply bg-pdx;
     }

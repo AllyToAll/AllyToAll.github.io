@@ -40,7 +40,6 @@
     --color-neutral-700: oklch(37.1% 0 0);
     --color-neutral-800: oklch(26.9% 0 0);
     --color-neutral-900: oklch(20.5% 0 0);
-    --color-white: #fff;
     --spacing: 0.25rem;
     --container-md: 28rem;
     --text-xl: 1.25rem;
@@ -248,6 +247,31 @@
   }
 }
 @layer components {
+  .page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-neutral-900);
+  }
+  .page-iframe {
+    position: absolute;
+    top: calc(var(--spacing) * 0);
+    left: calc(var(--spacing) * 0);
+    height: 90vh;
+    width: 100%;
+    border-style: var(--tw-border-style);
+    border-width: 0px;
+  }
+  .page-footer {
+    position: absolute;
+    bottom: calc(var(--spacing) * 5);
+    left: calc(1/2 * 100%);
+    z-index: 10;
+    display: flex;
+    --tw-translate-x: calc(calc(1/2 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+    gap: calc(var(--spacing) * 5);
+  }
   .hoi4 {
     background-color: var(--color-pdx);
   }
@@ -627,14 +651,29 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-font-weight {
-  syntax: "*";
-  inherits: false;
-}
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;
+}
+@property --tw-translate-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-shadow {
   syntax: "*";
@@ -722,8 +761,11 @@
       --tw-drop-shadow-color: initial;
       --tw-drop-shadow-alpha: 100%;
       --tw-drop-shadow-size: initial;
-      --tw-font-weight: initial;
       --tw-border-style: solid;
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-translate-z: 0;
+      --tw-font-weight: initial;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
       --tw-shadow-alpha: 100%;
