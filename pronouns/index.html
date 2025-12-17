@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta content="Pronouns" property="og:title"/>
     <meta content="website" property="og:type"/>
-    <meta content="/thumbnails/pronounsdotpage.svg" property="og:image"/>
+    <meta content="https://allytoall.github.io/thumbnails/pronounsdotpage.svg" property="og:image"/>
     <meta content="https://allytoall.github.io/pronouns" property="og:url"/>
-    <meta content="Allyce's Pronoun Page"
-          property="og:description"/>
+    <meta content="Allyce's Pronoun Page" property="og:description"/>
     <title>Pronoun Page</title>
+    <link href="/output.css" rel="stylesheet">
     <script src="/urlHandling.js"></script>
 </head>
-<body>
-<iframe loading="lazy" referrerpolicy="no-referrer" src="https://en.pronouns.page/card/@Allyce"
-        style="border:0; width:100%; height:100vh">
-    <a href="https://en.pronouns.page/@Allyce" rel="noopener" target="_blank">
-        @Allyce
-    </a>
-</iframe>
+<body class="background">
+<div class="flex flex-col h-screen w-full">
+    <iframe
+            class="h-[90%] w-full border-0"
+            loading="lazy"
+            referrerpolicy="no-referrer"
+            src="https://en.pronouns.page/card/@Allyce">
+    </iframe>
+
+    <div class="h-[10%] flex items-center justify-center">
+        <a href="/">
+            <button class="btn gray">Return</button>
+        </a>
+    </div>
+</div>
 </body>
 </html>
