@@ -30,7 +30,7 @@
     }
 
     .page-iframe {
-        @apply absolute top-0 left-0 w-full h-[90vh] border-0;
+        @apply absolute top-0 left-0 w-full h-[90svh] border-0;
     }
 
     .page-footer {
