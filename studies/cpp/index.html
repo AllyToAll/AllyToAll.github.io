@@ -9,62 +9,10 @@
     <meta content="A page containing a bunch of studies"
           property="og:description"/>
     <title>Studies</title>
-    <link href="/output.css" rel="stylesheet">
-    <script src="/urlHandling.js"></script>
-    <style>
-        a {
-            color: #1155cc;
-            text-decoration: underline;
-            page-break-after: avoid;
-        }
-
-        body {
-            background-color: #ffffff;
-            padding: 72pt 72pt 72pt 72pt;
-        }
-
-        .heading {
-            padding-top: 0;
-            color: #000000;
-            font-size: 26pt;
-            padding-bottom: 3pt;
-            font-family: "Arial", sans-serif;
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left;
-        }
-
-        p {
-            color: #000000;
-            font-size: 11pt;
-            font-family: "Arial", sans-serif;
-        }
-
-        h1 {
-            padding-top: 0;
-            color: #000000;
-            font-size: 11pt;
-            padding-bottom: 0;
-            font-family: "Arial", sans-serif;
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left;
-        }
-    </style>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            function updateStudyCount() {
-                document.getElementById('count').textContent =
-                    `This page contains ${document.querySelectorAll('h1').length} studies`;
-            }
-
-            updateStudyCount();
-        });
-    </script>
+    <link href="/css/output.css" rel="stylesheet">
+    <link href="/studies.css" rel="stylesheet">
+    <script src="/js/urlHandling.js"></script>
+    <script src="/js/studyCount.js"></script>
 </head>
 <body>
 <p class="heading">
