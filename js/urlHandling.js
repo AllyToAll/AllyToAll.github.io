@@ -1,5 +1,6 @@
-const isLocalhost = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
-if (!isLocalhost) {
+(() => {
+    const isLocalhost = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+    if (isLocalhost) return;
     const {pathname, search, hash} = window.location;
     let cleanPath = pathname;
     if (cleanPath.length > 1 && cleanPath.endsWith('/')) {
@@ -9,6 +10,6 @@ if (!isLocalhost) {
         cleanPath = cleanPath.replace(/\/index\.html$/, '') || '/';
     }
     if (cleanPath !== pathname) {
-        window.location.replace(cleanPath + search + hash);
+        history.replaceState(null, '', cleanPath + search + hash);
     }
-}
+})();
