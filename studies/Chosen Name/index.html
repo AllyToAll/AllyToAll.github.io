@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="Studies" property="og:title"/>
+    <meta content="website" property="og:type"/>
+    <meta content="https://allytoall.github.io/thumbnails/studies.png" property="og:image"/>
+    <meta content="https://allytoall.github.io/Chosen%20Name/studies" property="og:url"/>
+    <meta content="A page containing a bunch of studies"
+          property="og:description"/>
+    <title>Studies</title>
+    <link href="/output.css" rel="stylesheet">
+    <script src="/urlHandling.js"></script>
+    <style>
+        a {
+            color: #1155cc;
+            text-decoration: underline;
+            page-break-after: avoid;
+        }
+
+        body {
+            background-color: #ffffff;
+            padding: 72pt 72pt 72pt 72pt;
+        }
+
+        .heading {
+            padding-top: 0;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial", sans-serif;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+        }
+
+        p {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial", sans-serif;
+        }
+
+        h1 {
+            padding-top: 0;
+            color: #000000;
+            font-size: 11pt;
+            padding-bottom: 0;
+            font-family: "Arial", sans-serif;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            function updateStudyCount() {
+                document.getElementById('count').textContent =
+                    `This page contains ${document.querySelectorAll('h1').length} studies`;
+            }
+
+            updateStudyCount();
+        });
+    </script>
+</head>
+<body>
+<p class="heading">
+    Studies on Chosen Name use with Transgender Youth
+</p>
+<p id="count">This page contains N studies</p><br>
+
+<h1 id="10.1016/j.jadohealth.2018.02.003">
+    Chosen Name Use Is Linked to Reduced Depressive Symptoms, Suicidal Ideation, and Suicidal Behavior Among Transgender
+    Youth
+</h1>
+<p>
+    Chosen name = less depression, less suicidality
+    <a href="https://doi.org/10.1016/j.jadohealth.2018.02.003">
+        https://doi.org/10.1016/j.jadohealth.2018.02.003
+    </a><br>
+    An increase by one context in which a chosen name could be used predicted a 5.37-unit decrease in depressive
+    symptoms, a 29% decrease in suicidal ideation, and a 56% decrease in suicidal behavior. Depressive symptoms,
+    suicidal ideation, and suicidal behavior were at the lowest levels when chosen names could be used in all four
+    contexts.<br>
+    For transgender youth who choose a name different from the one given at birth, use of their chosen name in multiple
+    contexts affirms their gender identity and reduces mental health risks known to be high in this group.
+</p><br>
+
+<a href="/studies">
+    <button class="btn gray">
+        Return to studies
+    </button>
+</a>
+
+<a href="/">
+    <button class="btn gray">
+        Return to home
+    </button>
+</a>
+</body>
+</html>
