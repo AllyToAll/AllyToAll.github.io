@@ -104,12 +104,11 @@ Unless otherwise specified:
   © IWW
   https://commons.wikimedia.org/wiki/File:Anarchist_black_cat.svg
 
-### Licence: Orphaned Works
+### Licence: [Orphaned Works](https://en.wikipedia.org/wiki/Orphan_work)
 
 Phrase: I'm not debating my right to exist with you, get bent.
 © Unknown Author
-Considered an orphaned work as per
-https://en.wikipedia.org/wiki/Orphan_work
+Considered an orphaned work
 
 ### Brand guidelines
 
