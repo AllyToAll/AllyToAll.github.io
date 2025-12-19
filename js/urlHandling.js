@@ -1,16 +1,14 @@
 const isLocalhost = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
-
 if (!isLocalhost) {
     const {pathname, search, hash} = window.location;
-    let newPath = pathname;
-    if (newPath.length > 1 && newPath.endsWith('/')) {
-        newPath = newPath.slice(0, -1);
+    let cleanPath = pathname;
+    if (cleanPath.length > 1 && cleanPath.endsWith('/')) {
+        cleanPath = cleanPath.slice(0, -1);
     }
-    if (newPath.endsWith('/index.html')) {
-        newPath = newPath.replace(/\/index\.html$/, '') || '/';
+    if (cleanPath.endsWith('/index.html')) {
+        cleanPath = cleanPath.replace(/\/index\.html$/, '') || '/';
     }
-    const newUrl = newPath + search + hash;
-    if (newUrl !== pathname + search + hash) {
-        window.location.replace(newUrl);
+    if (cleanPath !== pathname) {
+        window.location.replace(cleanPath + search + hash);
     }
 }
