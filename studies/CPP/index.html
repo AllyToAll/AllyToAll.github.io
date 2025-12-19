@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="Studies" property="og:title"/>
+    <meta content="website" property="og:type"/>
+    <meta content="https://allytoall.github.io/thumbnails/studies.png" property="og:image"/>
+    <meta content="https://allytoall.github.io/CPP/studies" property="og:url"/>
+    <meta content="A page containing a bunch of studies"
+          property="og:description"/>
+    <title>Studies</title>
+    <link href="/output.css" rel="stylesheet">
+    <script src="/urlHandling.js"></script>
+    <style>
+        a {
+            color: #1155cc;
+            text-decoration: underline;
+            page-break-after: avoid;
+        }
+
+        body {
+            background-color: #ffffff;
+            padding: 72pt 72pt 72pt 72pt;
+        }
+
+        .heading {
+            padding-top: 0;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial", sans-serif;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+        }
+
+        p {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial", sans-serif;
+        }
+
+        h1 {
+            padding-top: 0;
+            color: #000000;
+            font-size: 11pt;
+            padding-bottom: 0;
+            font-family: "Arial", sans-serif;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            function updateStudyCount() {
+                document.getElementById('count').textContent =
+                    `This page contains ${document.querySelectorAll('h1').length} studies`;
+            }
+
+            updateStudyCount();
+        });
+    </script>
+</head>
+<body>
+<p class="heading">
+    Studies
+</p>
+<p id="count">This page contains N studies</p><br>
+
+<h1 id="10.1007/s004310051289">
+    Final height, gonadal function and bone mineral density of adolescent males with central precocious puberty after
+    therapy with gonadotropin-releasing hormone analogues
+</h1>
+<p>
+    <a href="https://doi.org/10.1007/s004310051289">
+        https://doi.org/10.1007/s004310051289
+    </a>
+</p><br>
+
+<h1 id="10.1016/j.mce.2006.04.012">
+    Long-term GnRH agonist treatment for female central precocious puberty does not impair reproductive function
+</h1>
+<p>
+    <a href="https://doi.org/10.1016/j.mce.2006.04.012">
+        https://doi.org/10.1016/j.mce.2006.04.012
+    </a>
+    Depot gonadotropin releasing hormone (GnRH) agonist (GnRHa) therapy is the treatment of choice for patients with
+    central precocious puberty (CPP). It is still unclear whether long-term exposure to GnRHa is associated with
+    impaired reproductive function in adulthood.
+    The present study was performed on 46 women, former CPP patients, 12.5 ± 3.7 years after the discontinuation of
+    treatment with depot GnRHa. In a structured interview, we assessed general health status, clinical signs possibly
+    associated with hyperandrogenism, menstrual cycle, gynaecological diseases and reproductive function. It appears
+    that long-term treatment with depot GnRHa is safe and does not impair reproductive function. The risk of former CPP
+    patients to develop hirsutism and/or polycystic ovary syndrome does not seem to be increased compared to the normal
+    population but this issue needs to be addressed in further long-term follow-up studies.
+</p><br>
+
+<h1 id="10.1210/jcem-67-2-368">
+    Resumption of puberty after long term luteinizing hormone-releasing hormone agonist treatment of central precocious
+    puberty
+</h1>
+<p>
+    <a href="https://doi.org/10.1210/jcem-67-2-368">
+        https://doi.org/10.1210/jcem-67-2-368
+    </a>
+</p><br>
+
+<a href="/studies">
+    <button class="btn gray">
+        Return to studies
+    </button>
+</a>
+
+<a href="/">
+    <button class="btn gray">
+        Return to home
+    </button>
+</a>
+</body>
+</html>
