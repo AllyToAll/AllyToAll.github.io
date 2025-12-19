@@ -36,4 +36,5 @@ Here is a quick skeleton of said website, including only external links you are 
 - [GnuPG Public Key](https://github.com/AllyToAll/AllyToAll.github.io/blob/main/publickey.asc) <img alt="" src="/thumbnails/gnuprivacyguard.svg" height="16">
 
 This site was built
-using [GitHub Pages](https://pages.github.com/). <img alt="" src="/thumbnails/githubpages.svg" height="16">
+using [GitHub Pages](https://pages.github.com/)<img alt="" src="/thumbnails/githubpages.svg" height="16"><br>
+Link to [Credits](https://github.com/AllyToAll/AllyToAll.github.io/blob/main/CREDITS.md)
