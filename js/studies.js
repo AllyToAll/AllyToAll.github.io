@@ -46,8 +46,7 @@ function renderStudies(studies) {
         const article = document.createElement('article');
 
         const h1 = document.createElement('h1');
-        const safeId = makeSafeId(study.doi);
-        h1.id = safeId;
+        h1.id = makeSafeId(study.doi);
         h1.textContent = study.title;
 
         const p = document.createElement('p');
@@ -85,7 +84,7 @@ function getAllTags(studies) {
 }
 
 function renderFilters(tags) {
-    filtersEl.innerHTML = '<strong>Filter by tag:</strong><br>';
+    filtersEl.innerHTML = 'Filter by tag:<br>';
 
     tags.forEach(tag => {
         const label = document.createElement('label');
