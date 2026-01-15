@@ -5,24 +5,23 @@ let allStudies = [];
 let activeTags = new Set();
 
 async function loadAllStudies() {
-    const res = await fetch('data/index.json');
+    const res = await fetch('/studies/data/index.json');
     if (!res.ok) {
         console.error('Failed to load index.json');
         return;
     }
 
     const files = await res.json();
-    const requests = files.map(file =>
-        fetch(`data/${file}`).then(r => {
-            if (!r.ok) {
-                throw new Error(`Failed to load ${file}`);
-            }
-            return r.json();
-        })
-    );
+    const requests = files.map(file => fetch(`/studies/data/${file}`).then(r => {
+        if (!r.ok) {
+            throw new Error(`Failed to load ${file}`);
+        }
+        return r.json();
+    }));
 
     allStudies = await Promise.all(requests);
 }
+
 
 function makeSafeId(doi) {
     return doi.replace(/[^a-zA-Z0-9_-]/g, '_');
@@ -60,9 +59,7 @@ function renderStudies(studies) {
         }
 
         const link = document.createElement('a');
-        link.href = study.doi.startsWith('http')
-            ? study.doi
-            : `https://doi.org/${study.doi}`;
+        link.href = study.doi.startsWith('http') ? study.doi : `https://doi.org/${study.doi}`;
         link.textContent = link.href;
         link.target = '_blank';
         link.rel = 'noopener';
@@ -97,9 +94,7 @@ function renderFilters(tags) {
         checkbox.value = tag;
 
         checkbox.addEventListener('change', () => {
-            checkbox.checked
-                ? activeTags.add(tag)
-                : activeTags.delete(tag);
+            checkbox.checked ? activeTags.add(tag) : activeTags.delete(tag);
             applyFilters();
         });
 
@@ -114,9 +109,7 @@ function applyFilters() {
         return;
     }
 
-    const filtered = allStudies.filter(study =>
-        study.tags?.some(tag => activeTags.has(tag))
-    );
+    const filtered = allStudies.filter(study => study.tags?.some(tag => activeTags.has(tag)));
 
     renderStudies(filtered);
 }
@@ -128,6 +121,6 @@ function applyFilters() {
 
     if (location.hash) {
         const id = decodeURIComponent(location.hash.slice(1));
-        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+        document.getElementById(id)?.scrollIntoView({behavior: 'smooth'});
     }
 })();
