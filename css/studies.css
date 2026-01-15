@@ -40,3 +40,7 @@ h1 {
     widows: 2;
     text-align: left;
 }
+
+article {
+    border-bottom: 1px solid #333;
+}
