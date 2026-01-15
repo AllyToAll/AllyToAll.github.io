@@ -5,14 +5,14 @@ let allStudies = [];
 let activeTags = new Set();
 
 async function loadAllStudies() {
-    const res = await fetch('/studies/data/index.json');
+    const res = await fetch('/data/index.json');
     if (!res.ok) {
         console.error('Failed to load index.json');
         return;
     }
 
     const files = await res.json();
-    const requests = files.map(file => fetch(`/studies/data/${file}`).then(r => {
+    const requests = files.map(file => fetch(`/data/${file}`).then(r => {
         if (!r.ok) {
             throw new Error(`Failed to load ${file}`);
         }
