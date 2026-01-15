@@ -74,6 +74,8 @@ function renderStudies(studies) {
         article.append(h1, p);
         content.append(article);
     });
+    const counterEl = document.getElementById('study-count');
+    counterEl.textContent = `Studies displayed: ${studies.length}`;
 }
 
 function getAllTags(studies) {
