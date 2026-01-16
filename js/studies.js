@@ -2,6 +2,7 @@ const content = document.getElementById('content');
 const filtersEl = document.getElementById('filters');
 let allStudies = [];
 let activeTags = new Set();
+let filterMode = 'OR';
 
 async function loadAllStudies() {
     const res = await fetch('/studies/data/index.json');
@@ -89,6 +90,18 @@ function renderFilters(tags) {
         container.append(label);
     });
     filtersEl.append(container);
+    const toggleLabel = document.createElement('label');
+    toggleLabel.style.marginLeft = '1em';
+    toggleLabel.style.cursor = 'pointer';
+    const toggle = document.createElement('input');
+    toggle.type = 'checkbox';
+    toggle.checked = false;
+    toggle.addEventListener('change', () => {
+        filterMode = toggle.checked ? 'AND' : 'OR';
+        applyFilters();
+    });
+    toggleLabel.append(toggle, ' AND mode');
+    filtersEl.append(toggleLabel);
 }
 
 function applyFilters() {
@@ -96,7 +109,14 @@ function applyFilters() {
         renderStudies(allStudies);
         return;
     }
-    const filtered = allStudies.filter(study => study.tags?.some(tag => activeTags.has(tag)));
+    const filtered = allStudies.filter(study => {
+        const studyTags = study.tags || [];
+        if (filterMode === 'OR') {
+            return studyTags.some(tag => activeTags.has(tag));
+        } else {
+            return [...activeTags].every(tag => studyTags.includes(tag));
+        }
+    });
     renderStudies(filtered);
 }
 
