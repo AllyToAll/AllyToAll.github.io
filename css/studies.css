@@ -1,46 +1,28 @@
-a {
-    color: #1155cc;
-    text-decoration: underline;
-    page-break-after: avoid;
-}
+@import "tailwindcss";
 
-body {
-    background-color: #ffffff;
-    padding: 72pt 72pt 72pt 72pt;
-}
+@layer components {
+    #content a {
+        @apply text-[#1155cc] underline;
+    }
 
-.heading {
-    padding-top: 0;
-    color: #000000;
-    font-size: 26pt;
-    padding-bottom: 3pt;
-    font-family: "Arial", sans-serif;
-    line-height: 1.15;
-    page-break-after: avoid;
-    orphans: 2;
-    widows: 2;
-    text-align: left;
-}
+    body {
+        @apply bg-white p-24;
 
-p {
-    color: #000000;
-    font-size: 11pt;
-    font-family: "Arial", sans-serif;
-}
+    }
 
-h1 {
-    padding-top: 0;
-    color: #000000;
-    font-size: 11pt;
-    padding-bottom: 0;
-    font-family: "Arial", sans-serif;
-    line-height: 1.15;
-    page-break-after: avoid;
-    orphans: 2;
-    widows: 2;
-    text-align: left;
-}
+    .heading {
+        @apply text-[26pt] font-sans leading-[1.15];
+    }
 
-article {
-    border-bottom: 1px solid #333;
+    p {
+        @apply text-[11pt] font-sans;
+    }
+
+    h1 {
+        @apply text-[11pt] font-sans leading-[1.15];
+    }
+
+    article {
+        @apply border-b border-[#333];
+    }
 }
