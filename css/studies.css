@@ -5,23 +5,6 @@
         @apply text-[#1155cc] underline;
     }
 
-    body {
-        @apply bg-white p-24;
-
-    }
-
-    .heading {
-        @apply text-[26pt] font-sans leading-[1.15];
-    }
-
-    p {
-        @apply text-[11pt] font-sans;
-    }
-
-    h1 {
-        @apply text-[11pt] font-sans leading-[1.15];
-    }
-
     article {
         @apply border-b border-[#333];
     }
