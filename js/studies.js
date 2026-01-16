@@ -66,7 +66,7 @@ function renderStudies(studies) {
         p.append(link);
 
         if (study.description) {
-            p.append(document.createElement('br'), document.createElement('br'));
+            p.append(document.createElement('br'));
             p.append(processDescriptionHTML(study.description));
         }
 
