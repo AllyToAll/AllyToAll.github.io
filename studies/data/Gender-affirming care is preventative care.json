@@ -1,10 +1,13 @@
 {
   "title": "Gender-affirming care is preventative care",
   "doi": "10.1016/j.lana.2023.100544",
-  "summary": null,
+  "summary": "GAC = ↑ quality of life ↑ mental health ↓ depression ↓ anxiety ↓ suicidality",
   "description": "GAC is linked to improved quality of life and mental health among trans people. [<a href=\"#10.1146/annurev-publhealth-052620-100313\">4</a>, <a href=\"#10.1089/trgh.2015.0008\">6</a>, <a href=\"#10.1176/appi.ajp.2019.19010080\">7</a> ] Notably, in a large match control study, use of hormones was associated with less depression, and trans people not on hormones had 4-fold increased risk of depressive disorder. <a href=\"#10.1016/j.jad.2018.02.051\">[8]</a> Results from a prospective cohort study of U.S. trans youths showed increases in positive psychological outcomes, including positive affect and life satisfaction, and decreases in depression and anxiety symptoms after receiving 2 years of hormones&mdash;addressing the lack of longitudinal data in this area. <a href=\"#10.1056/NEJMoa2206297\">[9]</a> Notably, this study also reported a total of 3.5% suicidal ideation <a href=\"#10.1056/NEJMoa2206297\">[9]</a> &mdash;a comparable rate to the U.S. general population rate of 4.6%. <a href=\"#https://transequality.org/sites/default/files/docs/usts/USTS-Full-Report-Dec17.pdf\">[ 3 ]</a> To date, no studies have reported findings that suggest GAC increases negative mental health outcomes.",
   "tags": [
     "Gender-affirming care",
-    "Mental health"
+    "Mental health",
+    "Depression",
+    "Anxiety",
+    "Suicidality"
   ]
 }

@@ -1,9 +1,10 @@
 {
   "title": "Association Between Gender-Affirming Surgeries and Mental Health Outcomes",
   "doi": "10.1001/jamasurg.2021.0952",
-  "summary": "GAS = less psychological distress, less smoking, less suicidality",
+  "summary": "GAS = ↓ psychological distress ↓ smoking ↓ suicidality",
   "description": "Our results demonstrate that undergoing gender-affirming surgery is associated with improved past-month severe psychological distress, past-year smoking, and past-year suicidal ideation.",
   "tags": [
-    "Gender-affirming surgery"
+    "Gender-affirming surgery",
+    "Suicidality"
   ]
 }
