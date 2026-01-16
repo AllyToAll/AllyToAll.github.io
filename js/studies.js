@@ -74,6 +74,7 @@ function renderFilters(tags) {
     container.style.display = 'inline-flex';
     container.style.flexWrap = 'wrap';
     container.style.gap = '0.5em';
+    tags.sort((a, b) => a.localeCompare(b));
     tags.forEach(tag => {
         const label = document.createElement('label');
         label.style.cursor = 'pointer';
