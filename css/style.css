@@ -22,6 +22,7 @@
     --color-bluesky: #1185FE;
     --color-pdx: #101010;
     --color-activision: #000000;
+    --color-blahaj: #4f90a6;
 }
 
 @layer components {
@@ -99,7 +100,7 @@
     }
 
     .blahaj {
-        @apply bg-sky-200 hover:bg-sky-400;
+        @apply bg-blahaj hover:bg-sky-400;
     }
 
     .gpg {
