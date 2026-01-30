@@ -40,147 +40,148 @@
     }
 
     .hoi4 {
-        @apply bg-pdx;
+        --color: var(--color-pdx);
     }
 
     .warno {
-        @apply bg-yellow-900;
+        --color: var(--color-yellow-900);
     }
 
     .minecraft {
-        @apply bg-green-900;
+        --color: var(--color-green-900);
     }
 
     .steam {
-        @apply bg-steam hover:bg-gray-700;
+        --color: var(--color-steam);
     }
 
     .epic {
-        @apply bg-epic hover:bg-gray-800;
+        --color: var(--color-epic);
     }
 
     .gog {
-        @apply bg-gog hover:bg-purple-700;
+        --color: var(--color-gog);
     }
 
     .playstation {
-        @apply bg-ps hover:bg-blue-800;
+        --color: var(--color-ps);
     }
 
     .xbox {
-        @apply bg-green-500 hover:bg-green-700;
+        --color: var(--color-green-500);
     }
 
     .siege {
-        @apply bg-yellow-300 hover:bg-yellow-500;
+        --color: var(--color-yellow-300);
     }
 
     .valorant {
-        @apply bg-valorant hover:bg-red-500;
+        --color: var(--color-valorant);
     }
 
     .rocket {
-        @apply bg-blue-400 hover:bg-blue-600;
+        --color: var(--color-blue-400);
     }
 
     .battlefield {
-        @apply bg-red-500 hover:bg-red-700;
+        --color: var(--color-red-500);
     }
 
     .github {
-        @apply bg-github hover:bg-gray-900;
+        --color: var(--color-github);
     }
 
     .discord {
-        @apply bg-discord hover:bg-indigo-500;
+        --color: var(--color-discord);
     }
 
     .pronoun {
-        @apply bg-pronoun hover:bg-pink-400;
+        --color: var(--color-pronoun);
     }
 
     .blahaj {
-        @apply bg-blahaj hover:bg-sky-400;
+        --color: var(--color-blahaj);
     }
 
     .gpg {
-        @apply bg-gpg hover:bg-sky-500;
+        --color: var(--color-gpg);
     }
 
     .onlyfans {
-        @apply bg-onlyfans hover:bg-sky-500;
+        --color: var(--color-onlyfans);
     }
 
     .bluesky {
-        @apply bg-bluesky hover:bg-blue-600;
+        --color: var(--color-bluesky);
     }
 
     .github {
-        @apply bg-github hover:bg-gray-700;
+        --color: var(--color-github);
     }
 
     .pinterest {
-        @apply bg-pinterest hover:bg-red-600;
+        --color: var(--color-pinterest);
     }
 
     .reddit {
-        @apply bg-reddit hover:bg-orange-600;
+        --color: var(--color-reddit);
     }
 
     .signal {
-        @apply bg-signal hover:bg-blue-500;
+        --color: var(--color-signal);
     }
 
     .tumblr {
-        @apply bg-tumblr hover:bg-slate-700;
+        --color: var(--color-tumblr);
     }
 
     .twitch {
-        @apply bg-twitch hover:bg-purple-600;
+        --color: var(--color-twitch);
     }
 
     .youtube {
-        @apply bg-youtube hover:bg-red-600;
+        --color: var(--color-youtube);
     }
 
     .xhs {
-        @apply bg-xhs hover:bg-rose-600;
+        --color: var(--color-xhs);
     }
 
     .mastodon {
-        @apply bg-mastodon hover:bg-indigo-500;
+        --color: var(--color-mastodon);
     }
 
     .activision {
-        @apply bg-activision;
+        --color: var(--color-activision);
     }
 
     .starbreeze {
-        @apply bg-orange-900;
+        --color: var(--color-orange-900);
     }
 
     .btn {
         @apply inline-flex items-center gap-1 font-bold py-2 px-4 rounded;
+        background-color: var(--color);
     }
 
     .gray {
-        @apply bg-gray-500 hover:bg-gray-700 ;
+        --color: var(--color-gray-500);
     }
 
     .red {
-        @apply bg-red-500 hover:bg-red-700;
+        --color: var(--color-red-500);
     }
 
     .green {
-        @apply bg-green-500 hover:bg-green-700 ;
+        --color: var(--color-green-500);
     }
 
     .blue {
-        @apply bg-blue-500 hover:bg-blue-700 ;
+        --color: var(--color-blue-500);
     }
 
     .white {
-        @apply bg-neutral-900 hover:bg-neutral-700;
+        --color: var(--color-neutral-900);
     }
 
     .input {
@@ -201,5 +202,13 @@
 
     .invert {
         @apply invert;
+    }
+
+    .btn:hover {
+        background-color: color-mix(
+                in srgb,
+                var(--color) 80%,
+                black 20%
+        );
     }
 }
