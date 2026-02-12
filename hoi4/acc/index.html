@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://allytoall.github.io/hoi4/acc" rel="canonical">
+    <meta content="Allyce's Overcrowding Carrier Calculator" name="description"/>
+
+    <meta content="website" property="og:type"/>
+    <meta content="https://allytoall.github.io/hoi4/acc" property="og:url"/>
+    <meta content="Allyce's Carrier Overcrowding Calculator" property="og:title"/>
+    <meta content="Allyce's Carrier Overcrowding Calculator" property="og:site_name">
+    <meta content="Allyce's Carrier Overcrowding Calculator to determine optimum carrier overcrowding"
+          property="og:description"/>
+    <meta content="https://allytoall.github.io/thumbnails/hoi4.png" property="og:image"/>
+
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="@AllyToAll1" name="twitter:site">
+    <meta content="@AllyToAll1" name="twitter:creator">
+    <meta content="Allyce's Carrier Overcrowding Calculator" name="twitter:title">
+    <meta content="Allyce's Carrier Overcrowding Calculator to determine optimum carrier overcrowding"
+          name="twitter:description">
+    <meta content="https://allytoall.github.io/thumbnails/hoi4.png" name="twitter:image">
+
+    <link href="/thumbnails/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+    <link href="/thumbnails/favicon.svg" rel="icon" type="image/svg+xml"/>
+    <link href="/thumbnails/favicon.ico" rel="shortcut icon"/>
+    <link href="/thumbnails/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+    <meta content="AOCC" name="apple-mobile-web-app-title"/>
+    <link href="/thumbnails/site.webmanifest" rel="manifest"/>
+    <title>Allyce's Carrier Calculator</title>
+    <link href="/css/output.css" rel="stylesheet">
+    <script src="/js/urlHandling.js"></script>
+    <script src="/js/carrierCalc.js"></script>
+</head>
+<body class="background">
+<div class="input">
+    <p class="title">Carrier Inputs</p>
+    <label>
+        Deck Size: <input id="deckSize" max="190" min="10" step="10" type="number" value="60">
+    </label><br>
+    <p class="title">Basic</p>
+    <p>Base (50% SE) (+2 OC)</p>
+    <label>
+        Screens
+        <input class="se" data-value="0.10" type="checkbox">
+    </label>
+    <p class="title">Military High Command</p>
+    <label>
+        <input class="se" data-value="0.10" id="Carriers 4 (Specialist)" type="checkbox">
+        Carriers 4 (Specialist) (+10% SE)
+    </label><br>
+    <label>
+        <input class="se" data-value="0.05" id="Carriers 6 (Expert)" type="checkbox">
+        Carriers 6 (Expert) (+5% SE)
+    </label><br>
+    <label>
+        <input class="se" data-value="0.05" id="Carriers 8 (Genius)" type="checkbox">
+        Carriers 8 (Genius) (+5% SE)
+    </label><br>
+    <p class="title">Traits</p>
+    <label>
+        <input class="se" data-value="0.10" id="Air Controller" type="checkbox">
+        Air Controller (+10% SE)
+    </label><br>
+    <label>
+        <input class="se" data-value="0.10" id="Flight Deck Manager" type="checkbox">
+        Flight Deck Manager (+10% SE)
+    </label>
+    <p class="title">Naval Doctrines</p>
+    <label>
+        <input class="se" data-value="0.30" type="checkbox">
+        Base Strike GD (+30% SE)
+    </label><br>
+    <label>
+        <input class="ocr" data-value="-0.1" type="checkbox">
+        Base Strike GD (-0.1 OC)
+    </label><br>
+    <label>
+        <input class="se" data-value="0.10" id="Floating Airfields SD" type="checkbox">
+        Floating Airfields SD (+10% SE)
+    </label><br>
+    <label>
+        <input class="ocr" data-value="-0.2" id="Floating Airfields I" type="checkbox">
+        Floating Airfields I (-0.2 OC)
+    </label><br>
+    <label>
+        <input class="se" data-value="0.30" id="Massed Carrier Fleet III" type="checkbox">
+        Massed Carrier Fleet III (+30% SE)
+    </label><br>
+    <p class="title">Air Doctrines</p>
+    <label>
+        <input class="se" data-value="0.15" type="checkbox">
+        Naval Aviation (+15% SE)
+    </label><br>
+    <label>
+        <input class="se" data-value="0.10" id="Sea To Shore Air Power IV" type="checkbox">
+        Sea To Shore Air Power IV (+10% SE)
+    </label><br>
+    <label>
+        <input class="ocr" data-value="-0.1" id="Sea To Shore Air Power V" type="checkbox">
+        Sea To Shore Air Power V (-0.1 OC)
+    </label>
+    <p class="title">Results</p>
+    <p>Sortie Efficiency: <span id="seOut">0</span></p>
+    <p>Overcrowding: <span id="ocrOut">0</span></p>
+    <p>Max Planes: <span id="mplanesOut">0</span></p>
+    <p>Effective Planes: <span id="meffOut">0</span></p>
+    <p>Max planes refers to the ideal amount of planes you should put on the carrier, and effective planes refers to how
+        many will fly after all debuffs are applied. This calculator is designed to determine what the ideal amount of
+        max planes is to have the absolute maximum number of effective planes</p>
+    <a class="btn gray" href="/">
+        Return
+    </a>
+</div>
+</body>
+</html>
