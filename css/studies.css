@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@source "../**/*.html";
+@source "../**/*.js";
+
 @layer components {
     #content a {
         @apply text-[#1155cc] underline;

@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@source "../**/*.html";
+@source "../**/*.js";
+
 @theme {
     --color-pronoun: #C71585;
     --color-discord: #5865F2;
