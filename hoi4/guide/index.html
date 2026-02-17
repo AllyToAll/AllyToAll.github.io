@@ -42,13 +42,13 @@
     Allyce's Guide to HoI4
 </h1>
 <div class="flex items-center p-4 rounded-xl border border-green-600 hover:bg-green-600/50 transition"
-     onclick="toggleSection('Army')">
+     onclick="toggleSection('Army Doctrine')">
     <h2>
         Army
     </h2>
 </div>
-<div id="Army">
-    <div class="flex items-center p-4 rounded-xl border border-green-600 ">
+<div id="Army Doctrine" onclick="toggleSection('Army Doctrine')">
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
         <h2>
             Spirits
         </h2>
@@ -124,13 +124,13 @@
                 <span class="font-bold">Assault Infantry - Best for combined arms</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-green-600">
-                Mounted Infantry - Cavalry
+                <span class="text-gray-400">Mounted Infantry - Cavalry</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-green-600">
-                Individual Excellence - No
+                <span class="text-gray-400">Individual Excellence - No</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-green-600">
-                Irregulars - Irregular Infantry
+                <span class="text-gray-400">Irregulars - Irregular Infantry</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-green-600">
                 <span class="text-gray-400">People's Militia - Militia</span>
@@ -162,7 +162,7 @@
                 Self-propelled Support - SPG
             </li>
             <li class="flex items-center p-4 rounded-xl border border-green-600">
-                Siege Artillery - Super Heavy Artillery / Railway Artillery
+                <span class="text-gray-400">Siege Artillery - Super Heavy Artillery / Railway Artillery</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-green-600">
                 <span class="font-bold">Field Engineering - Engineers - Best for using Engineers with</span>
@@ -185,7 +185,7 @@
                 Mobile Defense - Defence
             </li>
             <li class="flex items-center p-4 rounded-xl border border-green-600">
-                Armoured Cavalry - Mechanised Infantry (& Armoured Car)
+                <span class="text-gray-400">Armoured Cavalry - Mechanised Infantry (& Armoured Car)</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-green-600">
                 <span class="font-bold">Tank Destroyer Force - Hard attack</span>
@@ -209,20 +209,14 @@
             </li>
         </ul>
     </div>
-    <div class="flex items-center p-4 rounded-xl border border-green-600 hover:bg-green-600/50 transition"
-         onclick="toggleSection('Army')">
-        <h2>
-            Army
-        </h2>
-    </div>
 </div>
 <div class="flex items-center p-4 rounded-xl border border-blue-600 hover:bg-blue-600/50 transition"
-     onclick="toggleSection('Navy')">
+     onclick="toggleSection('Navy Doctrine')">
     <h2>
         Navy
     </h2>
 </div>
-<div id="Navy">
+<div id="Navy Doctrine" onclick="toggleSection('Navy Doctrine')">
     <div class="flex items-center p-4 rounded-xl border border-blue-600">
         <h3>
             Spirits
@@ -277,19 +271,19 @@
                 Wolfpacks - Convoy💀 SS
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
-                Fleet Operations - No
+                <span class="text-gray-400">Fleet Operations - No</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
                 Capital Hunters - SS
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
-                Coastal Defence - Midget Submarine
+                <span class="text-gray-400">Coastal Defence - Midget Submarine</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
                 <span class="font-bold">Coastal Minelaying - DD</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
-                Long Range Submarines - Cruiser Submarines, Fleet Submarines, Submarine Carrier
+                <span class="text-gray-400">Long Range Submarines - Cruiser Submarines, Fleet Submarines, Submarine Carrier</span>
             </li>
         </ul>
     </div>
@@ -300,13 +294,13 @@
                 Torpedo Primacy - W/O Mastery
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
-                Anti-Aircraft Cruisers - AA
+                <span class="text-gray-400">Anti-Aircraft Cruisers - AA</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
                 <span class="font-bold">New School - Light Attack</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
-                Patrol Boats - Cheap
+                Patrol Boats - Small navy
             </li>
         </ul>
     </div>
@@ -320,7 +314,7 @@
                 <span class="font-bold">Floating Airfields - Some CV</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
-                Escort Carrier Support - Escort Carriers
+                <span class="text-gray-400">Escort Carrier Support - Escort Carriers</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
                 Generalized Support - Support Ships
@@ -329,7 +323,7 @@
                 Massed Carrier Strikes - CV spam
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
-                Light Task Forces - DD (Cheap)
+                Light Task Forces - DD (Small navy)
             </li>
         </ul>
     </div>
@@ -337,33 +331,27 @@
         <h3>Capital Ships</h3>
         <ul>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
-                Line of Battle - Pride of the Fleet (Cheap)
+                Line of Battle - Pride of the Fleet (Small navy)
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
                 <span class="font-bold">Naval Gunfire Support - Large fleet</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
-                Anti-Aircraft Battleships - AA
+                <span class="text-gray-400">Anti-Aircraft Battleships - AA</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-blue-600">
-                Fast Battleships - No Pride of the Fleet (Cheap)
+                Fast Battleships - No Pride of the Fleet (Small navy)
             </li>
         </ul>
     </div>
-    <div class="flex items-center p-4 rounded-xl border border-blue-600 hover:bg-blue-600/50 transition"
-         onclick="toggleSection('Navy')">
-        <h2>
-            Navy
-        </h2>
-    </div>
 </div>
 <div class="flex items-center p-4 rounded-xl border border-red-600 hover:bg-red-600/50 transition"
-     onclick="toggleSection('Air')">
+     onclick="toggleSection('Air Doctrine')">
     <h2>
         Air
     </h2>
 </div>
-<div id="Air">
+<div id="Air Doctrine" onclick="toggleSection('Air Doctrine')">
     <div class="flex items-center p-4 rounded-xl border border-red-600">
         <h3>
             Spirits
@@ -430,7 +418,7 @@
                 <span class="font-bold">Pinpoint Strikes- CAS</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-red-600">
-                Precision Naval Bombing- CAS/NAV
+                <span class="text-gray-400">Precision Naval Bombing- CAS/NAV</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-red-600">
                 Torpedo Swarm Tactics- NAV
@@ -446,7 +434,7 @@
                 <span class="font-bold">Operational Air Support - No TAC</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-red-600">
-                Heavy Interceptors - Heavy FI
+                <span class="text-gray-400">Heavy Interceptors - Heavy FI</span>
             </li>
             <li class="flex items-center p-4 rounded-xl border border-red-600">
                 Tactical Battlefield Support - TAC
@@ -463,198 +451,285 @@
             </li>
         </ul>
     </div>
-    <div class="flex items-center p-4 rounded-xl border border-red-600 hover:bg-red-600/50 transition"
-         onclick="toggleSection('Air')">
-        <h2>
-            Air
-        </h2>
+</div>
+<div class="flex items-center p-4 rounded-xl border border-green-600 hover:bg-green-600/50 transition"
+     onclick="toggleSection('Infantry Template')">
+    <h2>
+        Infantry Templates
+    </h2>
+</div>
+<div id="Infantry Template" onclick="toggleSection('Infantry Template')">
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Garrison</span><br>
+            10/12 width<br>
+            5-6 Infantry Battalions<br>
+            Support Artillery<br>
+            Engineer company<br>
+            Garrison infantry to hold the line
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Infantry</span><br>
+            14-16/<span class="font-bold">18</span> width<br>
+            7-<span class="font-bold">9</span> infantry battalions<br>
+            Support Artillery company<br>
+            Engineer company<br>
+            Regular infantry for defence and limited offensive manoeuvres
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Assault Infantry</span><br>
+            <span class="font-bold">24</span> width<br>
+            9-12 infantry battalions<br>
+            0-4 artillery battalions<br>
+            Support Artillery<br>
+            Assault Engineer Company<br>
+            Field Hospital company<br>
+            Recon company / medium flame tank company<br>
+            Anti Air Company<br>
+            Shock troops for offensive actions
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Mountaineers</span><br>
+            <span class="font-bold">25</span>/30 Width<br>
+            12-15 Mountaineer Battalions<br>
+            0-4 Artillery battalions<br>
+            Assault Engineer Company / Rangers Company<br>
+            Medium flame tank company<br>
+            Support Artillery<br>
+            Anti Air Company / Field Hospital Company<br>
+            25 width for pure mountain use, 30 for mixed use<br>
+            Using cold weather specialists, mountaineers special forces doctrine, enables mountaineers to also have
+            bonuses
+            in snow terrain thus could enable tactics of using mountaineers there
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Rangers</span><br>
+            12/16/20/30 width<br>
+            Jungle & Forest Tile
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Desert Infantry</span><br>
+            14/18/24/36 width<br>
+            Desert Tile
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Jungle Infantry</span><br>
+            12/16/20/30 width<br>
+            Jungle & Forest Tiles
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Shock Troops</span><br>
+            16/20/30 width<br>
+            Urban Tile, also good against Forts
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Jaeger Infantry</span><br>
+            Hill Tile
     </div>
 </div>
-<p>Templates</p>
-<p><span class="font-bold">Land</span></p>
-<p><span class="font-bold">Garrison</span><br>
-    10/12 width<br>
-    5-6 Infantry Battalions<br>
-    Support Artillery<br>
-    Engineer company<br>
-    Garrison infantry to hold the line
-</p><br>
-<p><span class="font-bold">Infantry</span><br>
-    14-16/<span class="font-bold">18</span> width<br>
-    7-<span class="font-bold">9</span> infantry battalions<br>
-    Support Artillery company<br>
-    Engineer company<br>
-    Regular infantry for defence and limited offensive manoeuvres
-</p><br>
-<p><span class="font-bold">Assault Infantry</span><br>
-    <span class="font-bold">24</span> width<br>
-    9-12 infantry battalions<br>
-    0-4 artillery battalions<br>
-    Support Artillery<br>
-    Assault Engineer Company<br>
-    Field Hospital company<br>
-    Recon company / medium flame tank company<br>
-    Anti Air Company<br>
-    Shock troops for offensive actions
-</p><br>
-<p><span class="font-bold">Mountaineers</span><br>
-    <span class="font-bold">25</span>/30 Width<br>
-    12-15 Mountaineer Battalions<br>
-    0-4 Artillery battalions<br>
-    Assault Engineer Company / Rangers Company<br>
-    Medium flame tank company<br>
-    Support Artillery<br>
-    Anti Air Company / Field Hospital Company<br>
-    25 width for pure mountain use, 30 for mixed use<br>
-    Using cold weather specialists, mountaineers special forces doctrine, enables mountaineers to also have bonuses
-    in snow terrain thus could enable tactics of using mountaineers there
-</p><br>
-<p><span class="font-bold">Rangers</span><br>
-    12/16/20/30 width<br>
-    Jungle & Forest Tile
-</p><br>
-<p><span class="font-bold">Desert Infantry</span><br>
-    14/18/24/36 width<br>
-    Desert Tile
-</p><br>
-<p><span class="font-bold">Jungle Infantry</span><br>
-    12/16/20/30 width<br>
-    Jungle & Forest Tiles
-</p><br>
-<p><span class="font-bold">Shock Troops</span><br>
-    16/20/30 width<br>
-    Urban Tile, also good against Forts
-</p><br>
-<p><span class="font-bold">Tanks</span><br>
-    Whilst not absolutely necessary, at least 4-6 tank divisions for pushing, or 8-12 tank divisions
-</p><br>
-<p><span class="font-bold">Medium tanks</span><br>
-    24/30/36 width<br>
-    6/9-10 medium tank battalions<br>
-    6-8 motorised infantry battalions / mechanised infantry battalions<br>
-    Support Artillery<br>
-    Logistics Company<br>
-    Assault Engineers Company (if not, Engineers)<br>
-    Medium Flame Tank Company (if not, sub with something else)<br>
-    Motorised Recon Company / Anti-Air Company
-</p><br>
-<p><span class="font-bold">Heavy Tanks</span><br>
-    3 Man Turret
-</p><br>
-<p>
-    <span class="font-bold">MP Tanks</span><span class="c17"><a class="c18"
-                                                                href="https://www.youtube.com/watch?v=ArzBoNGrv8E">https://www.youtube.com/watch?v=ArzBoNGrv8E</a></span>
-</p><br>
-<p>Support Companies</p><br>
-<p><span class="font-bold">Air</span></p>
-<p><span class="font-bold">Fighters</span></p>
-<p><span class="font-bold">1936</span></p>
-<p>Basic Small Airframe</p>
-<ul>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">4x LMG</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">4x LMG</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">1x Engine II</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">Light MG Defence Turret</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">Drop Tanks</li>
-</ul>
-<br>
-<p><span class="font-bold">1939</span></p>
-<p>Basic Small Airframe</p>
-<ul>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">4x HMG</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">4x HMG</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">1x Engine II</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">Light MG Defence Turret</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">Self Sealing Fuel Tanks</li>
-</ul>
-<br>
-<p><span class="font-bold">1940</span></p>
-<p>Improved Small Airframe</p>
-<ul>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">4x HMG</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">4x HMG</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">1x Engine III</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">Self Sealing Fuel Tanks</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">Armour Plates</li>
-    <li class="flex items-center p-4 rounded-xl border border-green-600">Extra Fuel Tanks</li>
-</ul>
-<br>
-<p><span class="font-bold">Widths</span><br>
-    Different terrain has different widths. Different widths mean different sized divisions work better. Thus, you
-    should select a division width that on average works best for the terrain it can be expected to fight on.<br>
-    In order to find out good widths, you can use the chart on <a
-            href="https://www.reddit.com/r/hoi4/comments/1766m1p/combat_width_meta_after_aat_improved_calculation/">this
-        post</a><br>
-    Width isn't everything, there is not much gain if you ruin the other statistics that are meaningful just to
-    reduce the penalty by an insignificant amount, but that doesn't mean you should design divisions that due to
-    width perform poorly absolutely everywhere with massive penalties
-</p><br>
-<p><span class="font-bold">Artillery</span><br>
-    Artillery adds a good quantity of soft attack, which means a good quantity of damage. However, it is expensive.<br>
-    Support artillery is recommended as it's cheap<br>
-    Line artillery is more expensive and so keep that in mind
-</p><br>
-<p><span class="font-bold">Air</span></p>
-<p><span class="font-bold">Fighters</span><br>
-    Fighters are essential to air supremacy, without which you will lose any other planes in air missions.<br>
-    They provide a 25% buff to ground combat
-</p><br>
-<p><span class="font-bold">CAS</span><br>
-    CAS provides a buff of up to 35% to ground combat whilst also contributing damage through ground attack, they are
-    involved in battle at a rate of 3 planes per 1 combat width. The closer you are to the limit, the closer you are
-    to the 35% buff
-</p><br>
-<p><span class="font-bold">Navy</span></p>
-<p><span class="font-bold">Carriers</span><br>
-    There used to be a 4 (5 if you cheesed it) carrier limit, this doesn't exist any more, use as many carriers as you
-    want, but instead the planes in combat is limited by the number of enemy ships<br>
-    Planes on a carrier are 4x as effective as normal planes, I recommend using as many naval bombers as possible as
-    they will be very effective at sinking enemy ships
-</p><br>
-<p><span class="font-bold">Capitals</span><br>
-    Capitals consist of BB BC CA<br>
-    Capitals screen carriers at a rate of 1:1 meaning for every carrier you need a capital
-</p><br>
-<p><span class="font-bold">Screens</span><br>
-    Screens consist of DD and CL<br>
-    Screens screen capitals at a rate of 4:1 meaning you need 4 screens for every capital
-</p><br>
-<p><span class="font-bold">Submarines</span><br>
-    Submarines primarily sink enemy convoys<br>
-    Split off all of your submarines into their own fleet, and split them into small task forces, with an admiral who
-    has traits that work best for submarines.<br>
-    Do not use submarines in shallow water, they will be spotted and sunk within seconds
-</p><br>
-<p><span class="font-bold">Spotting</span><br>
-    If you don't want to run out of oil, most of your fleet will be set on Strike Force, which means when you spot a
-    fleet, the strike force will go and hunt it down<br>
-    However, for that to work better, you can dedicate a few ships specifically to spot the enemy fleet<br>
-    Light cruisers work best for this as they're cheap, and you can stick float planes on them, as well as sonar and
-    radar, and therefore be able to spot the enemy fleet very easily
-</p><br>
-<p>Economy</p>
-<p>Research</p>
-<p><span class="font-bold">Construction</span><br>
-    5 Civilian Factories in Greater London Area<br>
-    1 Infrastructure in West Midlands<br>
-    5 Civilian Factories in West Midlands<br>
-    1 Infrastructure in Yorkshire<br>
-    5 Civilian Factories in Yorkshire
-</p><br>
-<p><span class="font-bold">Resources</span><br>
-    <span class="font-bold">Rubber</span> - Import, Infrastructure in <span class="font-bold">Singapore</span> if needed<br>
-    <span class="font-bold">Aluminium</span> - Infrastructure in <span class="font-bold">British Guyana</span>, hard to
-    import<br>
-    <span class="font-bold">Chromium</span> - Import, Infrastructure in <span class="font-bold">Bechuanaland </span>to
-    cut costs<br>
-    <span class="font-bold">Oil</span> - Import<br>
-    <span class="font-bold">Tungsten</span> - Import, Infrastructure in <span class="font-bold">Magwe</span> if needed
-</p><br>
-<p><span class="font-bold">Air</span><br>
-    Send all the interwar planes to train such that you get enough xp to use basic airframes<br>
-    Produce as many as possible and after General Rearmament go down the fighter path to produce 1940 Airframes as
-    soon as possible. Aim to outnumber the German air force in quantity and quality
-</p><br>
+<div class="flex items-center p-4 rounded-xl border border-green-600 hover:bg-green-600/50 transition"
+     onclick="toggleSection('Tank Template')">
+    <h2>
+        Tank Templates
+    </h2>
+</div>
+<div id="Tank Template" onclick="toggleSection('Tank Template')">
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Medium Tanks</span><br>
+            24/30/36 width<br>
+            6/9-10 medium tank battalions<br>
+            6-8 motorised infantry battalions / mechanised infantry battalions<br>
+            Support Artillery<br>
+            Logistics Company<br>
+            Assault Engineers Company (if not, Engineers)<br>
+            Medium Flame Tank Company (if not, sub with something else)<br>
+            Motorised Recon Company / Anti-Air Company
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Heavy Tanks</span><br>
+            3 Man Turret
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p>
+            <span class="font-bold">MP Tanks</span>
+            <a href="https://www.youtube.com/watch?v=ArzBoNGrv8E">https://www.youtube.com/watch?v=ArzBoNGrv8E</a>
+        </p>
+    </div>
+</div>
+<div class="flex items-center p-4 rounded-xl border border-red-600 hover:bg-red-600/50 transition"
+     onclick="toggleSection('Fighter Design')">
+    <h2>
+        Fighter Designs
+    </h2>
+</div>
+<div id="Fighter Design" onclick="toggleSection('Fighter Design')">
+    <div class="flex items-center p-4 rounded-xl border border-red-600">
+        <p><span class="font-bold">1936</span><br>
+            Basic Small Airframe<br>
+            4x LMG<br>
+            4x LMG<br>
+            1x Engine II<br>
+            Light MG Defence Turret<br>
+            Drop Tanks
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-red-600">
+        <p><span class="font-bold">1939</span><br>
+            Basic Small Airframe<br>
+            4x HMG<br>
+            4x HMG<br>
+            1x Engine II<br>
+            Light MG Defence Turret<br>
+            Self Sealing Fuel Tanks<br>
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-red-600">
+        <p><span class="font-bold">1940</span><br>
+            Improved Small Airframe<br>
+            4x HMG<br>
+            4x HMG<br>
+            1x Engine III<br>
+            Self Sealing Fuel Tanks<br>
+            Armour Plates<br>
+            Extra Fuel Tanks<br>
+    </div>
+</div>
+<div class="flex items-center p-4 rounded-xl border border-green-600 hover:bg-green-600/50 transition"
+     onclick="toggleSection('Army')">
+    <p><span class="font-bold">Army</span></p>
+</div>
+<div id="Army" onclick="toggleSection('Army')">
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Widths</span><br>
+            Different terrain has different widths. Different widths mean different sized divisions work better. Thus,
+            you should select a division width that on average works best for the terrain it can be expected to fight
+            on.<br>
+            In order to find out good widths, you can use the chart on <a
+                    href="https://www.reddit.com/r/hoi4/comments/1766m1p/combat_width_meta_after_aat_improved_calculation/">this
+                post</a><br>
+            Width isn't everything, there is not much gain if you ruin the other statistics that are meaningful just to
+            reduce the penalty by an insignificant amount, but that doesn't mean you should design divisions that due to
+            width perform poorly absolutely everywhere with massive penalties
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-green-600">
+        <p><span class="font-bold">Artillery</span><br>
+            Artillery adds a good quantity of soft attack, which means a good quantity of damage. However, it is
+            expensive.<br>
+            Support artillery is recommended as it's cheap<br>
+            Line artillery is more expensive and so keep that in mind
+        </p>
+    </div>
+</div>
+<div class="flex items-center p-4 rounded-xl border border-red-600 hover:bg-red-600/50 transition"
+     onclick="toggleSection('Air')">
+    <p><span class="font-bold">Air</span></p>
+</div>
+<div id="Air" onclick="toggleSection('Air')">
+    <div class="flex items-center p-4 rounded-xl border border-red-600">
+        <p><span class="font-bold">Fighters</span><br>
+            Fighters are essential to air supremacy, without which you will lose any other planes in air missions.<br>
+            They provide a 25% buff to ground combat
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-red-600">
+        <p><span class="font-bold">CAS</span><br>
+            CAS provides a buff of up to 35% to ground combat whilst also contributing damage through ground attack,
+            they are involved in battle at a rate of 3 planes per 1 combat width. The closer you are to the limit, the
+            closer you are to the 35% buff
+        </p>
+    </div>
+</div>
+<div class="flex items-center p-4 rounded-xl border border-blue-600 hover:bg-blue-600/50 transition"
+     onclick="toggleSection('Navy')">
+    <p><span class="font-bold">Navy</span></p>
+</div>
+<div id="Navy" onclick="toggleSection('Navy')">
+    <div class="flex items-center p-4 rounded-xl border border-blue-600">
+        <p><span class="font-bold">Carriers</span><br>
+            There used to be a 4 (5 if you cheesed it) carrier limit, this doesn't exist any more, use as many carriers
+            as you want, but instead the planes in combat is limited by the number of enemy ships<br>
+            Planes on a carrier are 4x as effective as normal planes, I recommend using as many naval bombers as
+            possible as they will be very effective at sinking enemy ships
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-blue-600">
+        <p><span class="font-bold">Capitals</span><br>
+            Capitals consist of BB BC CA<br>
+            Capitals screen carriers at a rate of 1:1 meaning for every carrier you need a capital
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-blue-600">
+        <p><span class="font-bold">Screens</span><br>
+            Screens consist of DD and CL<br>
+            Screens screen capitals at a rate of 4:1 meaning you need 4 screens for every capital
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-blue-600">
+        <p><span class="font-bold">Submarines</span><br>
+            Submarines primarily sink enemy convoys<br>
+            Split off all of your submarines into their own fleet, and split them into small task forces, with an
+            admiral who has traits that work best for submarines.<br>
+            Do not use submarines in shallow water, they will be spotted and sunk within seconds
+        </p>
+    </div>
+    <div class="flex items-center p-4 rounded-xl border border-blue-600">
+        <p><span class="font-bold">Spotting</span><br>
+            If you don't want to run out of oil, most of your fleet will be set on Strike Force, which means when you
+            spot a fleet, the strike force will go and hunt it down<br>
+            However, for that to work better, you can dedicate a few ships specifically to spot the enemy fleet<br>
+            Light cruisers work best for this as they're cheap, and you can stick float planes on them, as well as sonar
+            and radar, and therefore be able to spot the enemy fleet very easily
+        </p>
+    </div>
+</div>
+<div class="flex items-center p-4 rounded-xl border">
+    <p>Economy</p>
+</div>
+<div class="flex items-center p-4 rounded-xl border">
+    <p>Research</p>
+</div>
+<div class="flex items-center p-4 rounded-xl border" onclick="toggleSection('Construction')">
+    <span class="font-bold">Construction</span>
+</div>
+<div id="Construction" onclick="toggleSection('Construction')">
+    <div class="flex items-center p-4 rounded-xl border">
+        <p><span class="font-bold">Industry</span><br>
+            5 Civilian Factories in Greater London Area<br>
+            1 Infrastructure in West Midlands<br>
+            5 Civilian Factories in West Midlands<br>
+            1 Infrastructure in Yorkshire<br>
+            5 Civilian Factories in Yorkshire
+        </p>
+    </div>
+</div>
+<div class="flex items-center p-4 rounded-xl border" onclick="toggleSection('Resources')">
+    <span class="font-bold">Resources</span>
+</div>
+<div id="Resources" onclick="toggleSection('Resources')">
+    <div class="flex items-center p-4 rounded-xl border">
+        <p>
+            <span class="font-bold">Rubber</span> - Import, Infrastructure in <span class="font-bold">Singapore</span>
+            if needed<br>
+            <span class="font-bold">Aluminium</span> - Infrastructure in <span class="font-bold">British Guyana</span>,
+            hard to import<br>
+            <span class="font-bold">Chromium</span> - Import, Infrastructure in <span
+                class="font-bold">Bechuanaland</span> to cut costs<br>
+            <span class="font-bold">Oil</span> - Import<br>
+            <span class="font-bold">Tungsten</span> - Import, Infrastructure in <span class="font-bold">Magwe</span> if
+            needed
+        </p>
+    </div>
+</div>
 <a class="btn gray" href="/hoi4">
     Return
 </a>
